@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-09-06T13:33:39.801066",
+  "input_text": "Can you please repeat that?",
+  "enhanced_text": "Repeat, please.",
+  "signwriting_output": "M114x700S8836 M112x700S764",
+  "enhancement_details": {
+    "original_text": "Can you please repeat that?",
+    "enhanced_text": "Repeat, please.",
+    "reasoning": "The original sentence, \"Can you please repeat that?\", is grammatically correct but contains unnecessary words for sign language translation.  Sign languages often prioritize conciseness and visual clarity.  Removing \"Can you\" and changing \"that\" to an implied reference through the context of the conversation simplifies the sentence and makes it more easily translated into visual signs. The word order is also adjusted for smoother signing; placing 'repeat' first emphasizes the action.",
+    "confidence": 9,
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "Repeat, please.",
+    "sign_output": "M114x700S8836 M112x700S764",
+    "assessment": {
+      "accuracy_score": 2,
+      "completeness_score": 1,
+      "appropriateness_score": 1,
+      "overall_score": 1,
+      "feedback": "The provided SignWriting output \"M114x700S8836 M112x700S764\" is completely unintelligible without a SignWriting lexicon.  SignWriting is a notation system, not a directly translatable code like ASCII.  To assess the quality of a sign language translation, the actual signs need to be represented visually or using a standard sign language alphabet (like HamNoSys) or a description in natural language. The numbers provided do not convey meaning. To get a proper assessment, you need to provide the translation using one of these methods. For example, a proper translation might describe the signs or use a transliterated version with a key.",
+      "strengths": []
+    },
+    "gemini_used": true
+  },
+  "pipeline_success": true,
+  "gemini_calls": 2,
+  "demo_type": "simple_standalone"
+}

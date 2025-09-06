@@ -1,0 +1,142 @@
+{
+  "original_text": "i want to drink kambocha",
+  "enhanced_text": "I want kombucha.",
+  "sign_sequence": [
+    {
+      "word": "I",
+      "description": "Index finger points to the signer's chest.",
+      "hand_shape": "Index finger",
+      "palm_orientation": "Forward",
+      "location": "Chest",
+      "movement": "Tap",
+      "duration": 0.5,
+      "cultural_notes": "This is a very common and straightforward sign.",
+      "hand_positions": [
+        {
+          "hand_shape": "Index finger",
+          "palm_orientation": "Forward",
+          "location": "Chest",
+          "movement": "Tap"
+        }
+      ]
+    },
+    {
+      "word": "want",
+      "description": "A slightly open hand, palm facing the signer, moves from the chin downwards toward the stomach.",
+      "hand_shape": "Open hand, slightly cupped",
+      "palm_orientation": "Down",
+      "location": "Chin to stomach",
+      "movement": "Downward movement",
+      "duration": 1,
+      "cultural_notes": "The movement conveys the desire or wanting aspect.  Variations in speed or emphasis can change the intensity of the want.",
+      "hand_positions": [
+        {
+          "hand_shape": "Open hand, slightly cupped",
+          "palm_orientation": "Down",
+          "location": "Chin to stomach",
+          "movement": "Downward movement"
+        }
+      ]
+    },
+    {
+      "word": "kombucha",
+      "description": "This word requires a fingerspelling component or a conceptual sign. There's no single established sign for 'kombucha'.  We'll describe fingerspelling here.",
+      "hand_shape": "Fingerspelling",
+      "palm_orientation": "Forward",
+      "location": "In front of the signer",
+      "movement": "Fingerspelled letter by letter, K-O-M-B-U-C-H-A",
+      "duration": 3,
+      "cultural_notes": "Fingerspelling is common for proper nouns and less common words.  The signer might also use a mimetic sign indicating a bottle or a drink, combined with fingerspelling or a descriptive sign to add context.  If a mimetic approach is used, the duration will vary.",
+      "hand_positions": [
+        {
+          "hand_shape": "Fingerspelling",
+          "palm_orientation": "Forward",
+          "location": "In front of the signer",
+          "movement": "Fingerspelled letter by letter, K-O-M-B-U-C-H-A"
+        }
+      ]
+    }
+  ],
+  "enhancement_details": {
+    "original_text": "i want to drink kambocha",
+    "enhanced_text": "I want kombucha.",
+    "reasoning": "The original sentence is already quite simple, but 'kambocha' is likely a misspelling of 'kombucha'.  The enhanced text corrects the spelling and removes the unnecessary word 'to drink' as the desire to drink is implied by 'I want'. This makes the sentence more concise and easier to translate directly into sign language, avoiding potential ambiguity.",
+    "confidence": 10,
+    "gemini_used": true
+  },
+  "gemini_signs_details": {
+    "signs": [
+      {
+        "word": "I",
+        "description": "Index finger points to the signer's chest.",
+        "hand_shape": "Index finger",
+        "palm_orientation": "Forward",
+        "location": "Chest",
+        "movement": "Tap",
+        "duration": 0.5,
+        "cultural_notes": "This is a very common and straightforward sign.",
+        "hand_positions": [
+          {
+            "hand_shape": "Index finger",
+            "palm_orientation": "Forward",
+            "location": "Chest",
+            "movement": "Tap"
+          }
+        ]
+      },
+      {
+        "word": "want",
+        "description": "A slightly open hand, palm facing the signer, moves from the chin downwards toward the stomach.",
+        "hand_shape": "Open hand, slightly cupped",
+        "palm_orientation": "Down",
+        "location": "Chin to stomach",
+        "movement": "Downward movement",
+        "duration": 1,
+        "cultural_notes": "The movement conveys the desire or wanting aspect.  Variations in speed or emphasis can change the intensity of the want.",
+        "hand_positions": [
+          {
+            "hand_shape": "Open hand, slightly cupped",
+            "palm_orientation": "Down",
+            "location": "Chin to stomach",
+            "movement": "Downward movement"
+          }
+        ]
+      },
+      {
+        "word": "kombucha",
+        "description": "This word requires a fingerspelling component or a conceptual sign. There's no single established sign for 'kombucha'.  We'll describe fingerspelling here.",
+        "hand_shape": "Fingerspelling",
+        "palm_orientation": "Forward",
+        "location": "In front of the signer",
+        "movement": "Fingerspelled letter by letter, K-O-M-B-U-C-H-A",
+        "duration": 3,
+        "cultural_notes": "Fingerspelling is common for proper nouns and less common words.  The signer might also use a mimetic sign indicating a bottle or a drink, combined with fingerspelling or a descriptive sign to add context.  If a mimetic approach is used, the duration will vary.",
+        "hand_positions": [
+          {
+            "hand_shape": "Fingerspelling",
+            "palm_orientation": "Forward",
+            "location": "In front of the signer",
+            "movement": "Fingerspelled letter by letter, K-O-M-B-U-C-H-A"
+          }
+        ]
+      }
+    ],
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "I want kombucha.",
+    "sign_output": "[{'word': 'I', 'description': \"Index finger points to the signer's chest.\", 'hand_shape': 'Index finger', 'palm_orientation': 'Forward', 'location': 'Chest', 'movement': 'Tap', 'duration': 0.5, 'cultural_notes': 'This is a very common and straightforward sign.', 'hand_positions': [{'hand_shape': 'Index finger', 'palm_orientation': 'Forward', 'location': 'Chest', 'movement': 'Tap'}]}, {'word': 'want', 'description': 'A slightly open hand, palm facing the signer, moves from the chin downwards toward the stomach.', 'hand_shape': 'Open hand, slightly cupped', 'palm_orientation': 'Down', 'location': 'Chin to stomach', 'movement': 'Downward movement', 'duration': 1, 'cultural_notes': 'The movement conveys the desire or wanting aspect.  Variations in speed or emphasis can change the intensity of the want.', 'hand_positions': [{'hand_shape': 'Open hand, slightly cupped', 'palm_orientation': 'Down', 'location': 'Chin to stomach', 'movement': 'Downward movement'}]}, {'word': 'kombucha', 'description': \"This word requires a fingerspelling component or a conceptual sign. There's no single established sign for 'kombucha'.  We'll describe fingerspelling here.\", 'hand_shape': 'Fingerspelling', 'palm_orientation': 'Forward', 'location': 'In front of the signer', 'movement': 'Fingerspelled letter by letter, K-O-M-B-U-C-H-A', 'duration': 3, 'cultural_notes': 'Fingerspelling is common for proper nouns and less common words.  The signer might also use a mimetic sign indicating a bottle or a drink, combined with fingerspelling or a descriptive sign to add context.  If a mimetic approach is used, the duration will vary.', 'hand_positions': [{'hand_shape': 'Fingerspelling', 'palm_orientation': 'Forward', 'location': 'In front of the signer', 'movement': 'Fingerspelled letter by letter, K-O-M-B-U-C-H-A'}]}]",
+    "assessment": {
+      "accuracy_score": 9,
+      "completeness_score": 8,
+      "appropriateness_score": 9,
+      "overall_score": 8.6,
+      "feedback": "The translation is very good, accurately conveying the meaning of the sentence.  However, relying solely on fingerspelling for 'kombucha' is not ideal in fluent signing.  The description acknowledges this, but it could be enhanced.  Here are suggestions:\n\n* **Improve Kombucha Sign:** Instead of solely fingerspelling, suggest a combination of signs.  For example:\n    * A mimetic sign representing a bottle or glass.\n    * A sign for 'drink'.\n    * Then fingerspell 'kombucha'.  This would be more natural and less cumbersome for a signer.\n    * Consider looking up established signs in your target sign language if possible.  There might be a regional sign or an emerging sign for 'kombucha'.\n* **Add nuances:**  The description of 'want' is good, but could be improved by mentioning that intensity can be expressed by changing the speed and the size of the movement. A stronger want could involve a wider hand movement and more force.\n* **Clarify Cultural Notes:** While the cultural notes are helpful, they could be slightly more concise and less repetitive.  The 'hand_positions' section largely mirrors the information already present in the 'description'. Consider merging or streamlining the information for better readability.\n* **Specify Sign Language:**  The output should explicitly state which sign language this is intended for (e.g., American Sign Language, British Sign Language).  Sign languages vary significantly.",
+      "strengths": "The descriptions of the signs for 'I' and 'want' are clear, concise, and accurate.  The use of hand shape, palm orientation, location, and movement parameters is excellent.  The acknowledgement of the need for fingerspelling for 'kombucha' and the provision of alternatives (mimetic sign) show awareness of limitations in direct translation.  The cultural notes are informative and offer valuable insight into signing practices."
+    },
+    "gemini_used": true
+  },
+  "gemini_calls": 3,
+  "success": true,
+  "timestamp": "2025-09-06T14:26:51.746509"
+}

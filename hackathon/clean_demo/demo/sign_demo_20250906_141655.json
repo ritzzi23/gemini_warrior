@@ -1,0 +1,189 @@
+{
+  "original_text": "Hello, how are you today?",
+  "enhanced_text": "Hello. How are you?",
+  "sign_sequence": [
+    {
+      "word": "Hello",
+      "description": "A common greeting.  The dominant hand makes a slightly curved 'C' handshape and touches the chin, then moves outward slightly.",
+      "hand_shape": "C-hand (slightly curved)",
+      "palm_orientation": "Forward",
+      "location": "Chin",
+      "movement": "Outward, slight arc",
+      "duration": "1",
+      "cultural_notes": "While numerous variations exist, this is a widely accepted and understood form.  Context is important; a different sign might be used in a more formal setting.",
+      "hand_positions": [
+        {
+          "hand_shape": "C-hand (slightly curved)",
+          "palm_orientation": "Forward",
+          "location": "Chin",
+          "movement": "Outward, slight arc"
+        }
+      ]
+    },
+    {
+      "word": "How",
+      "description": "The dominant hand forms a 'Y' or 'question mark' shape, moving up as you make the sign.",
+      "hand_shape": "Y/Question mark",
+      "palm_orientation": "Up",
+      "location": "Front of face, near eyebrows",
+      "movement": "Upward and slightly outward",
+      "duration": "1",
+      "cultural_notes": "The brow is often raised for emphasis.",
+      "hand_positions": [
+        {
+          "hand_shape": "Y/Question mark",
+          "palm_orientation": "Up",
+          "location": "Front of face, near eyebrows",
+          "movement": "Upward and slightly outward"
+        }
+      ]
+    },
+    {
+      "word": "are",
+      "description": "This is usually signed as part of 'How are you?'  It's incorporated into the movement of the 'you' sign, rather than signed separately. Therefore it is only implicitly signed, not as a standalone unit.",
+      "hand_shape": "Open hand",
+      "palm_orientation": "Up",
+      "location": "Center of chest",
+      "movement": "Indirectly conveyed through the movement of 'you'",
+      "duration": "0.5 (integrated with 'you')",
+      "cultural_notes": "It shows the close relationship between 'how', 'are', and 'you' in the question structure.",
+      "hand_positions": [
+        {
+          "hand_shape": "Open hand",
+          "palm_orientation": "Up",
+          "location": "Center of chest",
+          "movement": "Indirectly conveyed through the movement of 'you'"
+        }
+      ]
+    },
+    {
+      "word": "you",
+      "description": "The signer points to the person being addressed.",
+      "hand_shape": "Open hand or index finger (depending on distance and context)",
+      "palm_orientation": "Forward",
+      "location": "Signer points towards the other person",
+      "movement": "A pointed gesture toward the person receiving the greeting",
+      "duration": "0.5",
+      "cultural_notes": "Eye contact is usually maintained to convey respect and sincerity.",
+      "hand_positions": [
+        {
+          "hand_shape": "Open hand or index finger (depending on distance and context)",
+          "palm_orientation": "Forward",
+          "location": "Signer points towards the other person",
+          "movement": "A pointed gesture toward the person receiving the greeting"
+        }
+      ]
+    }
+  ],
+  "enhancement_details": {
+    "original_text": "Hello, how are you today?",
+    "enhanced_text": "Hello. How are you?",
+    "reasoning": "The original phrase \"Hello, how are you today?\" is grammatically correct but contains two separate ideas: a greeting and a question about well-being.  Separating them into two shorter sentences, \"Hello.\" and \"How are you?\" makes the sign language translation simpler.  The word \"today\" is redundant in the context of a casual greeting and adds unnecessary complexity for sign language, which often focuses on conveying the core meaning efficiently.  Shorter sentences are generally easier to translate into sign language because they are easier to segment visually and conceptually.",
+    "confidence": 10,
+    "gemini_used": true
+  },
+  "gemini_signs_details": {
+    "signs": [
+      {
+        "word": "Hello",
+        "description": "A common greeting.  The dominant hand makes a slightly curved 'C' handshape and touches the chin, then moves outward slightly.",
+        "hand_shape": "C-hand (slightly curved)",
+        "palm_orientation": "Forward",
+        "location": "Chin",
+        "movement": "Outward, slight arc",
+        "duration": "1",
+        "cultural_notes": "While numerous variations exist, this is a widely accepted and understood form.  Context is important; a different sign might be used in a more formal setting.",
+        "hand_positions": [
+          {
+            "hand_shape": "C-hand (slightly curved)",
+            "palm_orientation": "Forward",
+            "location": "Chin",
+            "movement": "Outward, slight arc"
+          }
+        ]
+      },
+      {
+        "word": "How",
+        "description": "The dominant hand forms a 'Y' or 'question mark' shape, moving up as you make the sign.",
+        "hand_shape": "Y/Question mark",
+        "palm_orientation": "Up",
+        "location": "Front of face, near eyebrows",
+        "movement": "Upward and slightly outward",
+        "duration": "1",
+        "cultural_notes": "The brow is often raised for emphasis.",
+        "hand_positions": [
+          {
+            "hand_shape": "Y/Question mark",
+            "palm_orientation": "Up",
+            "location": "Front of face, near eyebrows",
+            "movement": "Upward and slightly outward"
+          }
+        ]
+      },
+      {
+        "word": "are",
+        "description": "This is usually signed as part of 'How are you?'  It's incorporated into the movement of the 'you' sign, rather than signed separately. Therefore it is only implicitly signed, not as a standalone unit.",
+        "hand_shape": "Open hand",
+        "palm_orientation": "Up",
+        "location": "Center of chest",
+        "movement": "Indirectly conveyed through the movement of 'you'",
+        "duration": "0.5 (integrated with 'you')",
+        "cultural_notes": "It shows the close relationship between 'how', 'are', and 'you' in the question structure.",
+        "hand_positions": [
+          {
+            "hand_shape": "Open hand",
+            "palm_orientation": "Up",
+            "location": "Center of chest",
+            "movement": "Indirectly conveyed through the movement of 'you'"
+          }
+        ]
+      },
+      {
+        "word": "you",
+        "description": "The signer points to the person being addressed.",
+        "hand_shape": "Open hand or index finger (depending on distance and context)",
+        "palm_orientation": "Forward",
+        "location": "Signer points towards the other person",
+        "movement": "A pointed gesture toward the person receiving the greeting",
+        "duration": "0.5",
+        "cultural_notes": "Eye contact is usually maintained to convey respect and sincerity.",
+        "hand_positions": [
+          {
+            "hand_shape": "Open hand or index finger (depending on distance and context)",
+            "palm_orientation": "Forward",
+            "location": "Signer points towards the other person",
+            "movement": "A pointed gesture toward the person receiving the greeting"
+          }
+        ]
+      }
+    ],
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "Hello. How are you?",
+    "sign_output": "[{'word': 'Hello', 'description': \"A common greeting.  The dominant hand makes a slightly curved 'C' handshape and touches the chin, then moves outward slightly.\", 'hand_shape': 'C-hand (slightly curved)', 'palm_orientation': 'Forward', 'location': 'Chin', 'movement': 'Outward, slight arc', 'duration': '1', 'cultural_notes': 'While numerous variations exist, this is a widely accepted and understood form.  Context is important; a different sign might be used in a more formal setting.', 'hand_positions': [{'hand_shape': 'C-hand (slightly curved)', 'palm_orientation': 'Forward', 'location': 'Chin', 'movement': 'Outward, slight arc'}]}, {'word': 'How', 'description': \"The dominant hand forms a 'Y' or 'question mark' shape, moving up as you make the sign.\", 'hand_shape': 'Y/Question mark', 'palm_orientation': 'Up', 'location': 'Front of face, near eyebrows', 'movement': 'Upward and slightly outward', 'duration': '1', 'cultural_notes': 'The brow is often raised for emphasis.', 'hand_positions': [{'hand_shape': 'Y/Question mark', 'palm_orientation': 'Up', 'location': 'Front of face, near eyebrows', 'movement': 'Upward and slightly outward'}]}, {'word': 'are', 'description': \"This is usually signed as part of 'How are you?'  It's incorporated into the movement of the 'you' sign, rather than signed separately. Therefore it is only implicitly signed, not as a standalone unit.\", 'hand_shape': 'Open hand', 'palm_orientation': 'Up', 'location': 'Center of chest', 'movement': \"Indirectly conveyed through the movement of 'you'\", 'duration': \"0.5 (integrated with 'you')\", 'cultural_notes': \"It shows the close relationship between 'how', 'are', and 'you' in the question structure.\", 'hand_positions': [{'hand_shape': 'Open hand', 'palm_orientation': 'Up', 'location': 'Center of chest', 'movement': \"Indirectly conveyed through the movement of 'you'\"}]}, {'word': 'you', 'description': 'The signer points to the person being addressed.', 'hand_shape': 'Open hand or index finger (depending on distance and context)', 'palm_orientation': 'Forward', 'location': 'Signer points towards the other person', 'movement': 'A pointed gesture toward the person receiving the greeting', 'duration': '0.5', 'cultural_notes': 'Eye contact is usually maintained to convey respect and sincerity.', 'hand_positions': [{'hand_shape': 'Open hand or index finger (depending on distance and context)', 'palm_orientation': 'Forward', 'location': 'Signer points towards the other person', 'movement': 'A pointed gesture toward the person receiving the greeting'}]}]",
+    "assessment": {
+      "accuracy_score": 8,
+      "completeness_score": 7,
+      "appropriateness_score": 9,
+      "overall_score": 8,
+      "feedback": [
+        "The description of 'How are you?' as a single unit is accurate, but the breakdown into individual signs is problematic. While 'are' is often incorporated into the signing of 'How are you?',  presenting it as implicitly signed and giving it separate parameters in the JSON is confusing and doesn't accurately reflect how a signer would produce the sign. It should be either removed from the individual word descriptions or integrated into the description of the phrase 'How are you?'",
+        "The cultural notes are helpful and generally accurate, but could benefit from specifying which variations exist (e.g., regional variations). Specifying that 'How are you?' is a common expression would strengthen the cultural notes.",
+        "The hand shapes for 'How' are somewhat ambiguous.  Clarifying whether a single hand or two hands are involved and providing an alternative handshape (if applicable) would be helpful.  For example 'Y' handshape, or a double handshape.",
+        "The JSON structure could be improved by representing the 'How are you?' phrase as a single unit with combined movements. This is more in line with how a signer actually performs this sign.",
+        "Adding visual aids (e.g., links to videos or images) would greatly improve the clarity and utility of this translation. Providing images of the signs, especially 'How' is crucial."
+      ],
+      "strengths": [
+        "The individual sign descriptions are generally accurate and detailed, including palm orientation, location, and movement.",
+        "The cultural notes provide valuable context regarding variations in signing and emphasis.",
+        "The use of JSON allows for structured and easily parsable data.",
+        "The identification of handshapes, although needing some improvements, is a good starting point."
+      ]
+    },
+    "gemini_used": true
+  },
+  "gemini_calls": 3,
+  "success": true,
+  "timestamp": "2025-09-06T14:16:55.882391"
+}

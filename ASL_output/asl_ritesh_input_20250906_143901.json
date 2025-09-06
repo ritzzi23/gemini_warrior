@@ -1,0 +1,153 @@
+{
+  "input_file": "ritesh_input.txt",
+  "original_text": "I am feeling hungry today.",
+  "enhanced_text": "I am hungry.",
+  "sign_sequence": [
+    {
+      "word": "I",
+      "description": "Index finger points to the signer's chest.",
+      "hand_shape": "Index finger",
+      "palm_orientation": "Forward",
+      "location": "Chest",
+      "movement": "Point",
+      "duration": 0.5,
+      "cultural_notes": "This is a very basic and universally understood sign.",
+      "hand_positions": [
+        {
+          "hand_shape": "Index finger",
+          "palm_orientation": "Forward",
+          "location": "Chest",
+          "movement": "Point"
+        }
+      ]
+    },
+    {
+      "word": "am",
+      "description": "This is often incorporated into the verb 'hungry' in ASL.  It's not a separate sign in this context.  The 'be' verb in ASL is often implied through context.",
+      "hand_shape": "N/A",
+      "palm_orientation": "N/A",
+      "location": "N/A",
+      "movement": "N/A",
+      "duration": 0,
+      "cultural_notes": "The use of 'be' verbs differs significantly between ASL and English grammar.",
+      "hand_positions": [
+        {
+          "hand_shape": "N/A",
+          "palm_orientation": "N/A",
+          "location": "N/A",
+          "movement": "N/A"
+        }
+      ]
+    },
+    {
+      "word": "hungry",
+      "description": "A slight 'twisting' motion of a slightly closed fist (as if imitating the feeling of an empty stomach) near the stomach/chest area.",
+      "hand_shape": "Slightly closed fist",
+      "palm_orientation": "Up (slightly twisted/rotated)",
+      "location": "Stomach/chest area",
+      "movement": "Small circular motion/twist",
+      "duration": 1,
+      "cultural_notes": "The sign is highly visual and relies on the movement for meaning.  The exact motion might vary slightly based on individual signer's style, but the core idea remains consistent.  There are regional variations but this is a widely understood version.",
+      "hand_positions": [
+        {
+          "hand_shape": "Slightly closed fist",
+          "palm_orientation": "Up (slightly twisted/rotated)",
+          "location": "Stomach/chest area",
+          "movement": "Small circular motion/twist"
+        }
+      ]
+    }
+  ],
+  "enhancement_details": {
+    "original_text": "I am feeling hungry today.",
+    "enhanced_text": "I am hungry.",
+    "reasoning": "The original sentence, \"I am feeling hungry today,\" contains unnecessary words for sign language translation.  'Feeling' is implied in the sign for 'hungry,' and 'today' is often contextually understood or can be easily added as a separate sign if necessary.  Simplifying to \"I am hungry\" makes the translation more concise and direct, avoiding potential ambiguity or confusion.",
+    "confidence": 10,
+    "gemini_used": true
+  },
+  "gemini_signs_details": {
+    "signs": [
+      {
+        "word": "I",
+        "description": "Index finger points to the signer's chest.",
+        "hand_shape": "Index finger",
+        "palm_orientation": "Forward",
+        "location": "Chest",
+        "movement": "Point",
+        "duration": 0.5,
+        "cultural_notes": "This is a very basic and universally understood sign.",
+        "hand_positions": [
+          {
+            "hand_shape": "Index finger",
+            "palm_orientation": "Forward",
+            "location": "Chest",
+            "movement": "Point"
+          }
+        ]
+      },
+      {
+        "word": "am",
+        "description": "This is often incorporated into the verb 'hungry' in ASL.  It's not a separate sign in this context.  The 'be' verb in ASL is often implied through context.",
+        "hand_shape": "N/A",
+        "palm_orientation": "N/A",
+        "location": "N/A",
+        "movement": "N/A",
+        "duration": 0,
+        "cultural_notes": "The use of 'be' verbs differs significantly between ASL and English grammar.",
+        "hand_positions": [
+          {
+            "hand_shape": "N/A",
+            "palm_orientation": "N/A",
+            "location": "N/A",
+            "movement": "N/A"
+          }
+        ]
+      },
+      {
+        "word": "hungry",
+        "description": "A slight 'twisting' motion of a slightly closed fist (as if imitating the feeling of an empty stomach) near the stomach/chest area.",
+        "hand_shape": "Slightly closed fist",
+        "palm_orientation": "Up (slightly twisted/rotated)",
+        "location": "Stomach/chest area",
+        "movement": "Small circular motion/twist",
+        "duration": 1,
+        "cultural_notes": "The sign is highly visual and relies on the movement for meaning.  The exact motion might vary slightly based on individual signer's style, but the core idea remains consistent.  There are regional variations but this is a widely understood version.",
+        "hand_positions": [
+          {
+            "hand_shape": "Slightly closed fist",
+            "palm_orientation": "Up (slightly twisted/rotated)",
+            "location": "Stomach/chest area",
+            "movement": "Small circular motion/twist"
+          }
+        ]
+      }
+    ],
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "I am hungry.",
+    "sign_output": "[{'word': 'I', 'description': \"Index finger points to the signer's chest.\", 'hand_shape': 'Index finger', 'palm_orientation': 'Forward', 'location': 'Chest', 'movement': 'Point', 'duration': 0.5, 'cultural_notes': 'This is a very basic and universally understood sign.', 'hand_positions': [{'hand_shape': 'Index finger', 'palm_orientation': 'Forward', 'location': 'Chest', 'movement': 'Point'}]}, {'word': 'am', 'description': \"This is often incorporated into the verb 'hungry' in ASL.  It's not a separate sign in this context.  The 'be' verb in ASL is often implied through context.\", 'hand_shape': 'N/A', 'palm_orientation': 'N/A', 'location': 'N/A', 'movement': 'N/A', 'duration': 0, 'cultural_notes': \"The use of 'be' verbs differs significantly between ASL and English grammar.\", 'hand_positions': [{'hand_shape': 'N/A', 'palm_orientation': 'N/A', 'location': 'N/A', 'movement': 'N/A'}]}, {'word': 'hungry', 'description': \"A slight 'twisting' motion of a slightly closed fist (as if imitating the feeling of an empty stomach) near the stomach/chest area.\", 'hand_shape': 'Slightly closed fist', 'palm_orientation': 'Up (slightly twisted/rotated)', 'location': 'Stomach/chest area', 'movement': 'Small circular motion/twist', 'duration': 1, 'cultural_notes': \"The sign is highly visual and relies on the movement for meaning.  The exact motion might vary slightly based on individual signer's style, but the core idea remains consistent.  There are regional variations but this is a widely understood version.\", 'hand_positions': [{'hand_shape': 'Slightly closed fist', 'palm_orientation': 'Up (slightly twisted/rotated)', 'location': 'Stomach/chest area', 'movement': 'Small circular motion/twist'}]}]",
+    "assessment": {
+      "accuracy_score": 9,
+      "completeness_score": 8,
+      "appropriateness_score": 9,
+      "overall_score": 9,
+      "feedback": [
+        "The description of the 'hungry' sign is excellent, capturing the nuance and variability inherent in sign language. However, it could benefit from a visual aid (e.g., a short video or a series of still images) to fully illustrate the 'twisting' motion.  A clearer description of the handshape might also help; specifying the finger positions (e.g., slightly curled, relaxed) would be beneficial.",
+        "The handling of the 'am' verb is accurate in terms of ASL grammar, but the explanation could be slightly improved.  Instead of saying it's 'not a separate sign,' state that it's incorporated into the 'hungry' sign's context.  This clarifies that it's not omitted but integrated grammatically.",
+        "While the cultural notes are helpful, considering adding information about regional variations in the 'hungry' sign.  Mentioning specific regions and variations could enhance the description's completeness."
+      ],
+      "strengths": [
+        "The JSON structure is well-organized and provides comprehensive information for each sign, including hand shape, palm orientation, location, movement, duration, and cultural notes.  This detail facilitates accurate and contextually appropriate understanding.",
+        "The description of the 'I' sign is concise and accurate.",
+        "The explanation of the absence of a separate sign for 'am' is accurate in relation to ASL grammar, reflecting a key difference between signed and spoken languages.",
+        "The cultural notes provide valuable insights into the variability and universality of signs, promoting a more nuanced understanding of sign language's nature."
+      ]
+    },
+    "gemini_used": true
+  },
+  "gemini_calls": 3,
+  "success": true,
+  "timestamp": "2025-09-06T14:39:01.895260",
+  "processing_method": "file_based_gemini_cli"
+}

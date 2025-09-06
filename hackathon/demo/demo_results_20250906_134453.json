@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-09-06T13:44:53.600898",
+  "input_text": "I love learning new things.",
+  "enhanced_text": "I love learning. I love new things.",
+  "signwriting_output": "M123x456S1f720 M123x456S1f720 M108x800S5869 M123x456S1f720 M123x456S1f720 M123x456S1f720 M123x456S1f720",
+  "enhancement_details": {
+    "original_text": "I love learning new things.",
+    "enhanced_text": "I love learning. I love new things.",
+    "reasoning": "The original sentence contains a compound idea ('learning new things') which can be difficult to express in sign language as a single concept.  Breaking it down into two simpler sentences ('I love learning' and 'I love new things') allows for clearer and more natural signing. Each sentence is shorter and utilizes simpler vocabulary, facilitating easier translation across different sign languages. This avoids potential ambiguity or the need for complex grammatical structures.",
+    "confidence": 9,
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "I love learning. I love new things.",
+    "sign_output": "M123x456S1f720 M123x456S1f720 M108x800S5869 M123x456S1f720 M123x456S1f720 M123x456S1f720 M123x456S1f720",
+    "assessment": {
+      "accuracy_score": 1,
+      "completeness_score": 1,
+      "appropriateness_score": 1,
+      "overall_score": 1,
+      "feedback": "The provided SignWriting output is completely nonsensical and does not represent a valid translation of the English sentence.  SignWriting uses a system of symbols to represent handshapes, locations, and movements. The string 'M123x456S1f720' is not a valid combination of these symbols within the SignWriting system.  A proper translation would require a visual representation using the SignWriting notation, showing the handshapes, movements, and facial expressions needed to convey the meaning of \"I love learning\" and \"I love new things.\" The repetition of the same (invalid) code suggests a significant error in the process or software used for translation.",
+      "strengths": "There are no strengths in this translation.  It is completely devoid of meaningful SignWriting representation."
+    },
+    "gemini_used": true
+  },
+  "pipeline_success": true,
+  "gemini_calls": 2,
+  "demo_type": "simple_standalone"
+}

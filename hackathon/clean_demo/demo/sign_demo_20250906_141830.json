@@ -1,0 +1,222 @@
+{
+  "original_text": "I am feeling good by looking at you.",
+  "enhanced_text": "I feel good seeing you.",
+  "sign_sequence": [
+    {
+      "word": "I",
+      "description": "Index finger points to the signer's chest.",
+      "hand_shape": "Index finger",
+      "palm_orientation": "Forward",
+      "location": "Chest",
+      "movement": "Tap",
+      "duration": 0.5,
+      "cultural_notes": "This is a very common and basic sign.",
+      "hand_positions": [
+        {
+          "hand_shape": "Index finger",
+          "palm_orientation": "Forward",
+          "location": "Chest",
+          "movement": "Tap"
+        }
+      ]
+    },
+    {
+      "word": "feel",
+      "description": "Hand is open, slightly cupped, and moved across the chest,  as if sensing a feeling.",
+      "hand_shape": "Open",
+      "palm_orientation": "Up",
+      "location": "Chest",
+      "movement": "Across chest",
+      "duration": 1,
+      "cultural_notes": "The movement conveys the feeling of emotion.",
+      "hand_positions": [
+        {
+          "hand_shape": "Open",
+          "palm_orientation": "Up",
+          "location": "Chest",
+          "movement": "Across chest"
+        }
+      ]
+    },
+    {
+      "word": "good",
+      "description": "The dominant hand makes a 'thumbs up' sign and brought to the chest.",
+      "hand_shape": "Thumbs-up",
+      "palm_orientation": "Forward",
+      "location": "Chest area",
+      "movement": "Tap",
+      "duration": 0.75,
+      "cultural_notes": "This is a widely understood sign for 'good' or 'okay'.",
+      "hand_positions": [
+        {
+          "hand_shape": "Thumbs-up",
+          "palm_orientation": "Forward",
+          "location": "Chest area",
+          "movement": "Tap"
+        }
+      ]
+    },
+    {
+      "word": "seeing",
+      "description": "Eyes are widened and the signer looks at the person they are addressing.  The sign incorporates facial expression as a key component.",
+      "hand_shape": "Open hand",
+      "palm_orientation": "Forward",
+      "location": "Face (eyes)",
+      "movement": "None, focusing on the visual contact",
+      "duration": 1,
+      "cultural_notes": "The visual component is crucial. The eyes make a significant part of the meaning.",
+      "hand_positions": [
+        {
+          "hand_shape": "Open hand",
+          "palm_orientation": "Forward",
+          "location": "Face (eyes)",
+          "movement": "None, focusing on the visual contact"
+        }
+      ]
+    },
+    {
+      "word": "you",
+      "description": "Index finger points towards the person being addressed.",
+      "hand_shape": "Index finger",
+      "palm_orientation": "Forward",
+      "location": "Towards the person addressed",
+      "movement": "Point",
+      "duration": 0.5,
+      "cultural_notes": "Direction is key; this sign depends heavily on context and who it's directed towards.",
+      "hand_positions": [
+        {
+          "hand_shape": "Index finger",
+          "palm_orientation": "Forward",
+          "location": "Towards the person addressed",
+          "movement": "Point"
+        }
+      ]
+    }
+  ],
+  "enhancement_details": {
+    "original_text": "I am feeling good by looking at you.",
+    "enhanced_text": "I feel good seeing you.",
+    "reasoning": "The original sentence, \"I am feeling good by looking at you,\" is grammatically correct but somewhat cumbersome for sign language translation.  The improvements made address the following:\n\n1. **Simplified Complex Sentence:** The sentence structure was simplified from a complex sentence (\"I am feeling good by looking at you\") to a simpler declarative sentence (\"I feel good seeing you.\"). This reduces cognitive load for both the signer and the interpreter.\n2. **Broke Down Compound Ideas:** The original sentence combined the act of feeling good with the cause of that feeling (looking).  The enhanced version separates these slightly, focusing on the direct feeling and its trigger. This makes the meaning easier to express visually.\n3. **Clear, Direct Language:** The words \"am feeling\" were replaced with \"feel\" which is more concise and natural in both spoken and signed communication.  \"Seeing you\" is a more direct and visual alternative to \"looking at you.\"\n4. **Maintained Original Meaning:** The core meaning \u2013 the speaker feels good because of the recipient's presence \u2013 is preserved. \n\nSign languages often rely on facial expressions and body language to convey nuances.  A simpler sentence allows for clearer expression of these nuances. The original sentence's phrasing might confuse a signer attempting to convey the 'reason' for feeling good simultaneously with the emotion itself.",
+    "confidence": 10,
+    "gemini_used": true
+  },
+  "gemini_signs_details": {
+    "signs": [
+      {
+        "word": "I",
+        "description": "Index finger points to the signer's chest.",
+        "hand_shape": "Index finger",
+        "palm_orientation": "Forward",
+        "location": "Chest",
+        "movement": "Tap",
+        "duration": 0.5,
+        "cultural_notes": "This is a very common and basic sign.",
+        "hand_positions": [
+          {
+            "hand_shape": "Index finger",
+            "palm_orientation": "Forward",
+            "location": "Chest",
+            "movement": "Tap"
+          }
+        ]
+      },
+      {
+        "word": "feel",
+        "description": "Hand is open, slightly cupped, and moved across the chest,  as if sensing a feeling.",
+        "hand_shape": "Open",
+        "palm_orientation": "Up",
+        "location": "Chest",
+        "movement": "Across chest",
+        "duration": 1,
+        "cultural_notes": "The movement conveys the feeling of emotion.",
+        "hand_positions": [
+          {
+            "hand_shape": "Open",
+            "palm_orientation": "Up",
+            "location": "Chest",
+            "movement": "Across chest"
+          }
+        ]
+      },
+      {
+        "word": "good",
+        "description": "The dominant hand makes a 'thumbs up' sign and brought to the chest.",
+        "hand_shape": "Thumbs-up",
+        "palm_orientation": "Forward",
+        "location": "Chest area",
+        "movement": "Tap",
+        "duration": 0.75,
+        "cultural_notes": "This is a widely understood sign for 'good' or 'okay'.",
+        "hand_positions": [
+          {
+            "hand_shape": "Thumbs-up",
+            "palm_orientation": "Forward",
+            "location": "Chest area",
+            "movement": "Tap"
+          }
+        ]
+      },
+      {
+        "word": "seeing",
+        "description": "Eyes are widened and the signer looks at the person they are addressing.  The sign incorporates facial expression as a key component.",
+        "hand_shape": "Open hand",
+        "palm_orientation": "Forward",
+        "location": "Face (eyes)",
+        "movement": "None, focusing on the visual contact",
+        "duration": 1,
+        "cultural_notes": "The visual component is crucial. The eyes make a significant part of the meaning.",
+        "hand_positions": [
+          {
+            "hand_shape": "Open hand",
+            "palm_orientation": "Forward",
+            "location": "Face (eyes)",
+            "movement": "None, focusing on the visual contact"
+          }
+        ]
+      },
+      {
+        "word": "you",
+        "description": "Index finger points towards the person being addressed.",
+        "hand_shape": "Index finger",
+        "palm_orientation": "Forward",
+        "location": "Towards the person addressed",
+        "movement": "Point",
+        "duration": 0.5,
+        "cultural_notes": "Direction is key; this sign depends heavily on context and who it's directed towards.",
+        "hand_positions": [
+          {
+            "hand_shape": "Index finger",
+            "palm_orientation": "Forward",
+            "location": "Towards the person addressed",
+            "movement": "Point"
+          }
+        ]
+      }
+    ],
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "I feel good seeing you.",
+    "sign_output": "[{'word': 'I', 'description': \"Index finger points to the signer's chest.\", 'hand_shape': 'Index finger', 'palm_orientation': 'Forward', 'location': 'Chest', 'movement': 'Tap', 'duration': 0.5, 'cultural_notes': 'This is a very common and basic sign.', 'hand_positions': [{'hand_shape': 'Index finger', 'palm_orientation': 'Forward', 'location': 'Chest', 'movement': 'Tap'}]}, {'word': 'feel', 'description': 'Hand is open, slightly cupped, and moved across the chest,  as if sensing a feeling.', 'hand_shape': 'Open', 'palm_orientation': 'Up', 'location': 'Chest', 'movement': 'Across chest', 'duration': 1, 'cultural_notes': 'The movement conveys the feeling of emotion.', 'hand_positions': [{'hand_shape': 'Open', 'palm_orientation': 'Up', 'location': 'Chest', 'movement': 'Across chest'}]}, {'word': 'good', 'description': \"The dominant hand makes a 'thumbs up' sign and brought to the chest.\", 'hand_shape': 'Thumbs-up', 'palm_orientation': 'Forward', 'location': 'Chest area', 'movement': 'Tap', 'duration': 0.75, 'cultural_notes': \"This is a widely understood sign for 'good' or 'okay'.\", 'hand_positions': [{'hand_shape': 'Thumbs-up', 'palm_orientation': 'Forward', 'location': 'Chest area', 'movement': 'Tap'}]}, {'word': 'seeing', 'description': 'Eyes are widened and the signer looks at the person they are addressing.  The sign incorporates facial expression as a key component.', 'hand_shape': 'Open hand', 'palm_orientation': 'Forward', 'location': 'Face (eyes)', 'movement': 'None, focusing on the visual contact', 'duration': 1, 'cultural_notes': 'The visual component is crucial. The eyes make a significant part of the meaning.', 'hand_positions': [{'hand_shape': 'Open hand', 'palm_orientation': 'Forward', 'location': 'Face (eyes)', 'movement': 'None, focusing on the visual contact'}]}, {'word': 'you', 'description': 'Index finger points towards the person being addressed.', 'hand_shape': 'Index finger', 'palm_orientation': 'Forward', 'location': 'Towards the person addressed', 'movement': 'Point', 'duration': 0.5, 'cultural_notes': \"Direction is key; this sign depends heavily on context and who it's directed towards.\", 'hand_positions': [{'hand_shape': 'Index finger', 'palm_orientation': 'Forward', 'location': 'Towards the person addressed', 'movement': 'Point'}]}]",
+    "assessment": {
+      "accuracy_score": 8,
+      "completeness_score": 9,
+      "appropriateness_score": 9,
+      "overall_score": 8.5,
+      "feedback": [
+        "The translation is mostly accurate, but the 'feel good' section could be improved.  While the individual signs for 'feel' and 'good' are reasonable, combining them into a single, more fluid sign reflecting the sentiment of 'feeling good' would be more natural in ASL or other sign languages.  Consider researching established signs for \"feel good\" or \"happy\".  Simply juxtaposing the two signs might feel disjointed to a native signer.",
+        "The description for 'seeing you' is excellent in highlighting the importance of eye contact and facial expressions. This is crucial in conveying the meaning. However,  it would be beneficial to indicate if there's a specific sign used alongside the gaze and facial expression, even if it's subtle. This addition improves completeness. ",
+        "While the cultural notes are helpful, consider adding information on the specific sign language system (e.g., American Sign Language - ASL, British Sign Language - BSL) being referenced.  The signs presented are likely generalizable across several sign languages but specifying the intended target increases the clarity and precision of the translation."
+      ],
+      "strengths": [
+        "The descriptions of each sign are detailed and informative, providing handshape, palm orientation, location, movement, and duration.  This level of detail is beneficial for someone trying to learn or understand the signs.",
+        "The inclusion of 'cultural notes' and the recognition of the importance of facial expressions (in 'seeing you') demonstrates an understanding of the nuanced aspects of sign language.",
+        "The use of the JSON format for representing the data is structured and efficient."
+      ]
+    },
+    "gemini_used": true
+  },
+  "gemini_calls": 3,
+  "success": true,
+  "timestamp": "2025-09-06T14:18:30.883379"
+}

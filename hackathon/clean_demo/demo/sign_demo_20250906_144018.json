@@ -1,0 +1,155 @@
+{
+  "original_text": "I am in love",
+  "enhanced_text": "I am in love",
+  "sign_sequence": [
+    {
+      "word": "I",
+      "description": "Index finger points to the signer's chest.",
+      "hand_shape": "Index finger",
+      "palm_orientation": "Forward",
+      "location": "Chest",
+      "movement": "Tap",
+      "duration": 0.5,
+      "cultural_notes": "This is a very common and straightforward sign.",
+      "hand_positions": [
+        {
+          "hand_shape": "Index finger",
+          "palm_orientation": "Forward",
+          "location": "Chest",
+          "movement": "Tap"
+        }
+      ]
+    },
+    {
+      "word": "am",
+      "description": "This is often omitted in ASL as it is implied by context.  However, if used, a slight head nod or tilt can suffice.",
+      "hand_shape": "Open hand or None",
+      "palm_orientation": "N/A",
+      "location": "Face",
+      "movement": "None or Nod",
+      "duration": 0.25,
+      "cultural_notes": "Avoid over-signing.  Context is key in ASL.",
+      "hand_positions": [
+        {
+          "hand_shape": "Open hand or None",
+          "palm_orientation": "N/A",
+          "location": "Face",
+          "movement": "None or Nod"
+        }
+      ]
+    },
+    {
+      "word": "love",
+      "description": "Dominant hand makes a loose 'C' shape and moves to gently touch the chest.  Some signers add a slight shaking motion.",
+      "hand_shape": "Loose 'C'",
+      "palm_orientation": "Up (then inward towards the chest)",
+      "location": "Chest",
+      "movement": "Pull/Tap",
+      "duration": 1,
+      "cultural_notes": "The intensity of the movement and expression on the face will affect the nuance of the sign.  A gentler movement might indicate affection, while a more forceful movement could signify stronger romantic love. Facial expression is critical for conveying emotion in ASL.",
+      "hand_positions": [
+        {
+          "hand_shape": "Loose 'C'",
+          "palm_orientation": "Up (then inward towards the chest)",
+          "location": "Chest",
+          "movement": "Pull/Tap"
+        }
+      ]
+    }
+  ],
+  "enhancement_details": {
+    "original_text": "I am in love",
+    "enhanced_text": "I am in love",
+    "reasoning": "Gemini enhancement failed, using original text",
+    "confidence": 1,
+    "gemini_used": false,
+    "error": "'reasoning'"
+  },
+  "gemini_signs_details": {
+    "signs": [
+      {
+        "word": "I",
+        "description": "Index finger points to the signer's chest.",
+        "hand_shape": "Index finger",
+        "palm_orientation": "Forward",
+        "location": "Chest",
+        "movement": "Tap",
+        "duration": 0.5,
+        "cultural_notes": "This is a very common and straightforward sign.",
+        "hand_positions": [
+          {
+            "hand_shape": "Index finger",
+            "palm_orientation": "Forward",
+            "location": "Chest",
+            "movement": "Tap"
+          }
+        ]
+      },
+      {
+        "word": "am",
+        "description": "This is often omitted in ASL as it is implied by context.  However, if used, a slight head nod or tilt can suffice.",
+        "hand_shape": "Open hand or None",
+        "palm_orientation": "N/A",
+        "location": "Face",
+        "movement": "None or Nod",
+        "duration": 0.25,
+        "cultural_notes": "Avoid over-signing.  Context is key in ASL.",
+        "hand_positions": [
+          {
+            "hand_shape": "Open hand or None",
+            "palm_orientation": "N/A",
+            "location": "Face",
+            "movement": "None or Nod"
+          }
+        ]
+      },
+      {
+        "word": "love",
+        "description": "Dominant hand makes a loose 'C' shape and moves to gently touch the chest.  Some signers add a slight shaking motion.",
+        "hand_shape": "Loose 'C'",
+        "palm_orientation": "Up (then inward towards the chest)",
+        "location": "Chest",
+        "movement": "Pull/Tap",
+        "duration": 1,
+        "cultural_notes": "The intensity of the movement and expression on the face will affect the nuance of the sign.  A gentler movement might indicate affection, while a more forceful movement could signify stronger romantic love. Facial expression is critical for conveying emotion in ASL.",
+        "hand_positions": [
+          {
+            "hand_shape": "Loose 'C'",
+            "palm_orientation": "Up (then inward towards the chest)",
+            "location": "Chest",
+            "movement": "Pull/Tap"
+          }
+        ]
+      }
+    ],
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "I am in love",
+    "sign_output": "[{'word': 'I', 'description': \"Index finger points to the signer's chest.\", 'hand_shape': 'Index finger', 'palm_orientation': 'Forward', 'location': 'Chest', 'movement': 'Tap', 'duration': 0.5, 'cultural_notes': 'This is a very common and straightforward sign.', 'hand_positions': [{'hand_shape': 'Index finger', 'palm_orientation': 'Forward', 'location': 'Chest', 'movement': 'Tap'}]}, {'word': 'am', 'description': 'This is often omitted in ASL as it is implied by context.  However, if used, a slight head nod or tilt can suffice.', 'hand_shape': 'Open hand or None', 'palm_orientation': 'N/A', 'location': 'Face', 'movement': 'None or Nod', 'duration': 0.25, 'cultural_notes': 'Avoid over-signing.  Context is key in ASL.', 'hand_positions': [{'hand_shape': 'Open hand or None', 'palm_orientation': 'N/A', 'location': 'Face', 'movement': 'None or Nod'}]}, {'word': 'love', 'description': \"Dominant hand makes a loose 'C' shape and moves to gently touch the chest.  Some signers add a slight shaking motion.\", 'hand_shape': \"Loose 'C'\", 'palm_orientation': 'Up (then inward towards the chest)', 'location': 'Chest', 'movement': 'Pull/Tap', 'duration': 1, 'cultural_notes': 'The intensity of the movement and expression on the face will affect the nuance of the sign.  A gentler movement might indicate affection, while a more forceful movement could signify stronger romantic love. Facial expression is critical for conveying emotion in ASL.', 'hand_positions': [{'hand_shape': \"Loose 'C'\", 'palm_orientation': 'Up (then inward towards the chest)', 'location': 'Chest', 'movement': 'Pull/Tap'}]}]",
+    "assessment": {
+      "accuracy_score": 8,
+      "completeness_score": 9,
+      "appropriateness_score": 9,
+      "overall_score": 8.6,
+      "feedback": [
+        "The description for 'am' is accurate in acknowledging its often-implied nature in ASL. However,  it could be more explicit by suggesting alternatives beyond a head nod. For instance,  mentioning that the sign for 'I love' inherently includes the 'am' concept would enhance clarity. ",
+        "The description of the 'love' sign is good, but could benefit from visual aids.  While the textual description is thorough, a visual representation (image, video, or link to a resource showing the sign) would greatly improve understanding, particularly for those unfamiliar with ASL.",
+        "The JSON structure is slightly redundant. The 'hand_positions' array within each word object mirrors information already present in the main description. This redundancy could be streamlined. Consider combining or removing one of these. ",
+        "Consider adding a section on facial expressions associated with the phrase \"I am in love.\"  Facial expression is crucial in ASL and warrants more explicit emphasis than it currently receives.",
+        "The cultural notes are insightful but could be more concise and integrated into the main descriptions where appropriate. For example, instead of a separate cultural note about context, the importance of context could be woven into the explanation of the 'am' sign.",
+        "Specify the dominant hand for the 'I' sign. Although it implies the dominant hand, explicitly stating it avoids ambiguity."
+      ],
+      "strengths": [
+        "The descriptions of the individual signs ('I' and 'love') are accurate and detailed, capturing important nuances like handshape, palm orientation, movement, and location.",
+        "The sign for 'love' correctly highlights the importance of facial expression in conveying the emotion of love in ASL.",
+        "The cultural notes correctly emphasize the importance of context and avoiding over-signing in ASL.",
+        "The structure of the JSON is well-organized and relatively easy to parse, especially in the separation of sign parameters."
+      ]
+    },
+    "gemini_used": true
+  },
+  "gemini_calls": 3,
+  "success": true,
+  "timestamp": "2025-09-06T14:40:18.131819"
+}

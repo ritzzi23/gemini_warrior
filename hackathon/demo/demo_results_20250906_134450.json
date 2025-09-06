@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-09-06T13:44:50.556602",
+  "input_text": "Thank you for your help.",
+  "enhanced_text": "Thank you.  You helped me.",
+  "signwriting_output": "M123x456S1f720 M123x456S1f720 M123x456S1f720 M104x600S8648 M123x456S1f720",
+  "enhancement_details": {
+    "original_text": "Thank you for your help.",
+    "enhanced_text": "Thank you.  You helped me.",
+    "reasoning": "The original sentence is grammatically correct but contains a compound idea ('Thank you' and 'for your help').  Breaking it into two simpler sentences improves clarity and makes the translation easier for sign language interpreters.  Many sign languages convey these ideas through separate signs,  and combining them may make the meaning harder to interpret correctly or require more complex sign combinations.  Using simple, direct language prevents ambiguity.",
+    "confidence": 10,
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "Thank you.  You helped me.",
+    "sign_output": "M123x456S1f720 M123x456S1f720 M123x456S1f720 M104x600S8648 M123x456S1f720",
+    "assessment": {
+      "accuracy_score": 1,
+      "completeness_score": 2,
+      "appropriateness_score": 1,
+      "overall_score": 1,
+      "feedback": "The provided SignWriting output is completely nonsensical and does not represent a valid translation of the English sentence.  'M123x456S1f720' and 'M104x600S8648' are not recognizable SignWriting symbols.  SignWriting uses a system of notation to represent handshapes, locations, and movements. This output appears to be random alphanumeric characters.  To create an accurate translation, a proper understanding of SignWriting and the target sign language (which isn't specified) is crucial. The translation needs a complete overhaul.  It should show the appropriate signs for 'thank you' and 'help' in the correct grammatical order and structure appropriate to the sign language.",
+      "strengths": "None.  The output shows no understanding of SignWriting or sign language translation principles."
+    },
+    "gemini_used": true
+  },
+  "pipeline_success": true,
+  "gemini_calls": 2,
+  "demo_type": "simple_standalone"
+}

@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-09-06T13:33:31.137390",
+  "input_text": "Hello, how are you today?",
+  "enhanced_text": "Hello. How are you?",
+  "signwriting_output": "M104x600S381 M104x300S4397 M97x300S9485 M121x400S2925",
+  "enhancement_details": {
+    "original_text": "Hello, how are you today?",
+    "enhanced_text": "Hello. How are you?",
+    "reasoning": "The original greeting uses a compound sentence.  Breaking it into two simpler sentences, \"Hello.\" and \"How are you?\" improves clarity for sign language translation.  The phrase \"today\" is implied in the context of a greeting and removing it simplifies the message without losing essential meaning. This shorter, more direct phrasing is easier to translate into visual signs and avoids potential ambiguity.",
+    "confidence": 10,
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "Hello. How are you?",
+    "sign_output": "M104x600S381 M104x300S4397 M97x300S9485 M121x400S2925",
+    "assessment": {
+      "accuracy_score": 1,
+      "completeness_score": 1,
+      "appropriateness_score": 1,
+      "overall_score": 1,
+      "feedback": "The provided SignWriting output is completely unintelligible and unusable as a sign language translation.  SignWriting uses a system of notated symbols to represent signs, and these codes appear to be arbitrary and not based on any standard SignWriting system.  To properly translate \"Hello. How are you?\" into SignWriting, one would need a visual representation showing the handshapes, movements, and facial expressions associated with the signs in a particular sign language (e.g., American Sign Language, British Sign Language). The current output is not a valid SignWriting representation and fails to convey any meaning.",
+      "strengths": "There are no strengths. The output is nonsensical as a sign language translation."
+    },
+    "gemini_used": true
+  },
+  "pipeline_success": true,
+  "gemini_calls": 2,
+  "demo_type": "simple_standalone"
+}

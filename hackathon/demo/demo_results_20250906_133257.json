@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-09-06T13:32:57.681488",
+  "input_text": "Can you please repeat that?",
+  "enhanced_text": "Repeat, please?",
+  "signwriting_output": "M114x700S7547 M112x700S7255",
+  "enhancement_details": {
+    "original_text": "Can you please repeat that?",
+    "enhanced_text": "Repeat, please?",
+    "reasoning": "The original sentence, \"Can you please repeat that?\" is grammatically correct but contains several elements that can be challenging to translate directly into sign language.  Sign language often favors shorter, more direct phrases.  The word \"Can\" adds unnecessary complexity, as the polite request is implied through the use of the facial expression and body language often associated with asking for repetition.  Similarly, \"please\" is easily conveyed through non-manual markers (facial expressions, body posture) in sign language. Removing these words results in a more concise and easily translatable phrase.",
+    "confidence": 9,
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "Repeat, please?",
+    "sign_output": "M114x700S7547 M112x700S7255",
+    "assessment": {
+      "accuracy_score": 1,
+      "completeness_score": 1,
+      "appropriateness_score": 1,
+      "overall_score": 1,
+      "feedback": "The provided SignWriting output \"M114x700S7547 M112x700S7255\" is not valid SignWriting.  SignWriting uses a system of glyphs representing handshapes, locations, and movements.  These alphanumeric codes do not correspond to any known SignWriting notation. To properly translate \"Repeat, please?\" into SignWriting, one would need to depict the signs for \"REPEAT\" and \"PLEASE\" with the appropriate grammatical markers (like a question mark).  A SignWriting expert would need to create the visual representation.  The current output is nonsensical and cannot be assessed for accuracy or appropriateness.",
+      "strengths": "There are no strengths as the provided SignWriting is invalid and doesn't represent a translation."
+    },
+    "gemini_used": true
+  },
+  "pipeline_success": true,
+  "gemini_calls": 2,
+  "demo_type": "simple_standalone"
+}

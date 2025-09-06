@@ -1,0 +1,28 @@
+{
+  "original_text": "i am feeling good",
+  "enhanced_text": "I feel good.",
+  "signwriting_output": "M105x100S2207 M102x400S7120 M103x500S9075",
+  "enhancement_details": {
+    "original_text": "i am feeling good",
+    "enhanced_text": "I feel good.",
+    "reasoning": "The original sentence, \"I am feeling good,\" is grammatically correct but slightly more verbose than necessary.  For sign language, which often relies on visual representation and immediacy,  \"I feel good\" is more concise and direct. Removing the auxiliary verb \"am\" and changing \"feeling\" to \"feel\" simplifies the sentence without losing meaning.  This simpler structure is easier to translate into clear and unambiguous signs.",
+    "confidence": 10,
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "I feel good.",
+    "sign_output": "M105x100S2207 M102x400S7120 M103x500S9075",
+    "assessment": {
+      "accuracy_score": 2,
+      "completeness_score": 1,
+      "appropriateness_score": 1,
+      "overall_score": 1,
+      "feedback": "The provided SignWriting output is completely unintelligible and does not represent a valid translation of \"I feel good.\"  SignWriting uses a specific notation system, and this string of alphanumeric characters does not adhere to any known SignWriting conventions.  To accurately assess the translation, a proper SignWriting representation (or a transcription in another sign language notation) is needed.  It's also crucial to specify which sign language the translation is intended for (e.g., American Sign Language (ASL), British Sign Language (BSL), etc.) as signs vary greatly across languages.  A good translation would involve signs representing \"I,\" \"feel,\" and \"good.\" Each sign would be described using the appropriate SignWriting notation or other system.",
+      "strengths": "There are no strengths as the provided SignWriting is not valid."
+    },
+    "gemini_used": true
+  },
+  "gemini_calls": 2,
+  "success": true,
+  "timestamp": "2025-09-06T13:42:30.122331"
+}

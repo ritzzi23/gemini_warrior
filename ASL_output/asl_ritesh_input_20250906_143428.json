@@ -1,0 +1,154 @@
+{
+  "input_file": "ritesh_input.txt",
+  "original_text": "I am feeling hungry today.",
+  "enhanced_text": "I am hungry.",
+  "sign_sequence": [
+    {
+      "word": "I",
+      "description": "Point to yourself with index finger.",
+      "hand_shape": "Index finger",
+      "palm_orientation": "Forward",
+      "location": "Chest",
+      "movement": "Point",
+      "duration": 0.5,
+      "cultural_notes": "This is a common and straightforward sign.",
+      "hand_positions": [
+        {
+          "hand_shape": "Index finger",
+          "palm_orientation": "Forward",
+          "location": "Chest",
+          "movement": "Point"
+        }
+      ]
+    },
+    {
+      "word": "am",
+      "description": "This is typically incorporated into the verb 'hungry' and often not signed separately. It's implied.",
+      "hand_shape": "N/A",
+      "palm_orientation": "N/A",
+      "location": "N/A",
+      "movement": "N/A",
+      "duration": 0,
+      "cultural_notes": "Copula verbs like 'to be' are often omitted or incorporated into other signs in ASL.",
+      "hand_positions": [
+        {
+          "hand_shape": "N/A",
+          "palm_orientation": "N/A",
+          "location": "N/A",
+          "movement": "N/A"
+        }
+      ]
+    },
+    {
+      "word": "hungry",
+      "description": "One hand forms a 'C' shape around the stomach, then moves slightly downward or in a slight squeezing motion.",
+      "hand_shape": "C-hand",
+      "palm_orientation": "Down",
+      "location": "Stomach",
+      "movement": "Circular motion, slight downwards movement",
+      "duration": 1,
+      "cultural_notes": "The movement signifies emptiness or the feeling of hunger.  Variations exist but this is a widely accepted version.",
+      "hand_positions": [
+        {
+          "hand_shape": "C-hand",
+          "palm_orientation": "Down",
+          "location": "Stomach",
+          "movement": "Circular motion, slight downwards movement"
+        }
+      ]
+    }
+  ],
+  "enhancement_details": {
+    "original_text": "I am feeling hungry today.",
+    "enhanced_text": "I am hungry.",
+    "reasoning": "The original sentence, \"I am feeling hungry today,\" contains unnecessary words for sign language translation.  'Feeling' is implied in the sign for 'hungry,' and 'today' is often contextually understood.  Simplifying to \"I am hungry\" makes the sentence more concise and easier to translate directly into sign language, avoiding the need for complex sentence structures or additional signs.",
+    "confidence": 10,
+    "gemini_used": true
+  },
+  "gemini_signs_details": {
+    "signs": [
+      {
+        "word": "I",
+        "description": "Point to yourself with index finger.",
+        "hand_shape": "Index finger",
+        "palm_orientation": "Forward",
+        "location": "Chest",
+        "movement": "Point",
+        "duration": 0.5,
+        "cultural_notes": "This is a common and straightforward sign.",
+        "hand_positions": [
+          {
+            "hand_shape": "Index finger",
+            "palm_orientation": "Forward",
+            "location": "Chest",
+            "movement": "Point"
+          }
+        ]
+      },
+      {
+        "word": "am",
+        "description": "This is typically incorporated into the verb 'hungry' and often not signed separately. It's implied.",
+        "hand_shape": "N/A",
+        "palm_orientation": "N/A",
+        "location": "N/A",
+        "movement": "N/A",
+        "duration": 0,
+        "cultural_notes": "Copula verbs like 'to be' are often omitted or incorporated into other signs in ASL.",
+        "hand_positions": [
+          {
+            "hand_shape": "N/A",
+            "palm_orientation": "N/A",
+            "location": "N/A",
+            "movement": "N/A"
+          }
+        ]
+      },
+      {
+        "word": "hungry",
+        "description": "One hand forms a 'C' shape around the stomach, then moves slightly downward or in a slight squeezing motion.",
+        "hand_shape": "C-hand",
+        "palm_orientation": "Down",
+        "location": "Stomach",
+        "movement": "Circular motion, slight downwards movement",
+        "duration": 1,
+        "cultural_notes": "The movement signifies emptiness or the feeling of hunger.  Variations exist but this is a widely accepted version.",
+        "hand_positions": [
+          {
+            "hand_shape": "C-hand",
+            "palm_orientation": "Down",
+            "location": "Stomach",
+            "movement": "Circular motion, slight downwards movement"
+          }
+        ]
+      }
+    ],
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "I am hungry.",
+    "sign_output": "[{'word': 'I', 'description': 'Point to yourself with index finger.', 'hand_shape': 'Index finger', 'palm_orientation': 'Forward', 'location': 'Chest', 'movement': 'Point', 'duration': 0.5, 'cultural_notes': 'This is a common and straightforward sign.', 'hand_positions': [{'hand_shape': 'Index finger', 'palm_orientation': 'Forward', 'location': 'Chest', 'movement': 'Point'}]}, {'word': 'am', 'description': \"This is typically incorporated into the verb 'hungry' and often not signed separately. It's implied.\", 'hand_shape': 'N/A', 'palm_orientation': 'N/A', 'location': 'N/A', 'movement': 'N/A', 'duration': 0, 'cultural_notes': \"Copula verbs like 'to be' are often omitted or incorporated into other signs in ASL.\", 'hand_positions': [{'hand_shape': 'N/A', 'palm_orientation': 'N/A', 'location': 'N/A', 'movement': 'N/A'}]}, {'word': 'hungry', 'description': \"One hand forms a 'C' shape around the stomach, then moves slightly downward or in a slight squeezing motion.\", 'hand_shape': 'C-hand', 'palm_orientation': 'Down', 'location': 'Stomach', 'movement': 'Circular motion, slight downwards movement', 'duration': 1, 'cultural_notes': 'The movement signifies emptiness or the feeling of hunger.  Variations exist but this is a widely accepted version.', 'hand_positions': [{'hand_shape': 'C-hand', 'palm_orientation': 'Down', 'location': 'Stomach', 'movement': 'Circular motion, slight downwards movement'}]}]",
+    "assessment": {
+      "accuracy_score": 9,
+      "completeness_score": 8,
+      "appropriateness_score": 9,
+      "overall_score": 9,
+      "feedback": [
+        "The description of 'am' is accurate in that it's often incorporated into the sign for 'hungry' in ASL. However, explicitly stating that it's implied could be improved by clarifying that while it isn't a separate sign, the context makes the meaning clear.  The JSON could better reflect this by including a note on how the tense is conveyed within the 'hungry' sign.",
+        "The sign for 'hungry' is well-described, although specifying the direction of the circular motion (clockwise or counterclockwise) would add clarity.  Adding a visual reference (image or video) would greatly enhance the description.  Additionally, mentioning common variations can improve the understanding of its fluidity in real-world signing.",
+        "While the use of a structured JSON is helpful for organization, it may not be the best format for directly conveying the nuanced aspects of sign language.  A more user-friendly method of presenting the information (e.g., incorporating visual aids) should be considered for wider audience accessibility.",
+        "Consider adding information about facial expressions, which are crucial components of conveying meaning in sign languages.  A hungry expression would enhance the realism and understanding of the signed sentence."
+      ],
+      "strengths": [
+        "The description of the 'I' sign is clear and accurate.",
+        "The description of the 'hungry' sign is largely accurate and detailed, capturing the essential handshape, location, and movement.",
+        "The cultural notes accurately reflect the common practices of ASL grammar concerning copula verbs.",
+        "The JSON structure is well-organized and facilitates easy access to individual sign parameters."
+      ]
+    },
+    "gemini_used": true
+  },
+  "gemini_calls": 3,
+  "success": true,
+  "timestamp": "2025-09-06T14:34:28.676012",
+  "processing_method": "file_based_gemini_cli"
+}

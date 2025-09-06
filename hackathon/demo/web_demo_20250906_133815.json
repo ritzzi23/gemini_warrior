@@ -1,0 +1,28 @@
+{
+  "original_text": "Hello, how are you today?",
+  "enhanced_text": "Hello. How are you?",
+  "signwriting_output": "M104x600S7000 M104x300S1312 M97x300S5016 M121x400S5867",
+  "enhancement_details": {
+    "original_text": "Hello, how are you today?",
+    "enhanced_text": "Hello. How are you?",
+    "reasoning": "The original greeting combines a salutation and a question.  For sign language, it's often clearer to separate these.  'Today' is implied in the context of the greeting and adds unnecessary complexity, so it's omitted.  This simplifies the sentence structure, making it easier to translate into visual expressions.",
+    "confidence": 10,
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "Hello. How are you?",
+    "sign_output": "M104x600S7000 M104x300S1312 M97x300S5016 M121x400S5867",
+    "assessment": {
+      "accuracy_score": 0,
+      "completeness_score": 0,
+      "appropriateness_score": 0,
+      "overall_score": 0,
+      "feedback": "The provided SignWriting output is not a valid representation of sign language.  SignWriting uses a system of glyphs to represent handshapes, locations, and movements.  The given string 'M104x600S7000 M104x300S1312 M97x300S5016 M121x400S5867' appears to be arbitrary codes, not actual SignWriting notation. To translate \"Hello. How are you?\" in SignWriting, one would need to represent the individual signs for each word (or maybe a single sign for the entire phrase, depending on the sign language) with their corresponding glyphs.  Each glyph would depict the handshape, movement, and location of the sign.  There's no context given for which Sign Language this should be in, further reducing the possibility of valid translation.  Without a proper SignWriting representation of the signs, an assessment is impossible.",
+      "strengths": "None. The provided SignWriting output is meaningless and does not represent a valid translation."
+    },
+    "gemini_used": true
+  },
+  "gemini_calls": 2,
+  "success": true,
+  "timestamp": "2025-09-06T13:38:15.764337"
+}

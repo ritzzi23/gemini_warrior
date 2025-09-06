@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-09-06T13:32:51.296670",
+  "input_text": "Thank you for your help.",
+  "enhanced_text": "Thank you.  You helped.",
+  "signwriting_output": "M116x500S8474 M121x400S5658 M121x300S7880 M104x700S4681",
+  "enhancement_details": {
+    "original_text": "Thank you for your help.",
+    "enhanced_text": "Thank you.  You helped.",
+    "reasoning": "The original sentence, while grammatically correct, contains a slightly complex structure for sign language translation.  Breaking it into two simpler sentences improves clarity and reduces the cognitive load for both the signer and the interpreter/recipient.  'Thank you' is a common and easily signed phrase. Separating the expression of gratitude from the acknowledgement of help allows for more natural and expressive signing.  Each phrase is short, direct, and unambiguous, fitting the needs of sign language which often benefits from shorter, simpler units.",
+    "confidence": 9,
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "Thank you.  You helped.",
+    "sign_output": "M116x500S8474 M121x400S5658 M121x300S7880 M104x700S4681",
+    "assessment": {
+      "accuracy_score": 2,
+      "completeness_score": 2,
+      "appropriateness_score": 1,
+      "overall_score": 1.6,
+      "feedback": "The provided SignWriting output is completely unintelligible and unusable.  It appears to be random strings of numbers and codes which do not correspond to any known SignWriting system.  To translate \"Thank you. You helped.\" in SignWriting, you would need to represent each sign in a system of notation that visually shows the handshape, movement, location, and orientation of the signs.  The provided output doesn't do this.  A proper SignWriting translation would require a skilled SignWriting transcriber familiar with the specific sign language being used (e.g., American Sign Language, British Sign Language).  The output lacks any semblance of a proper sign language structure. There is no indication of grammatical structure (sentence boundaries, subject-verb-object agreement) either.",
+      "strengths": "There are no strengths. The provided 'translation' is entirely erroneous and fails to represent the source English sentence in any meaningful way."
+    },
+    "gemini_used": true
+  },
+  "pipeline_success": true,
+  "gemini_calls": 2,
+  "demo_type": "simple_standalone"
+}

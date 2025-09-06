@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-09-06T13:33:37.124593",
+  "input_text": "I love learning new things.",
+  "enhanced_text": "I love learning. I love new things.",
+  "signwriting_output": "M105x100S5669 M108x400S8939 M108x900S1216 M105x100S5669 M108x400S8939 M110x300S353 M116x700S838",
+  "enhancement_details": {
+    "original_text": "I love learning new things.",
+    "enhanced_text": "I love learning. I love new things.",
+    "reasoning": "The original sentence contains a compound idea ('learning new things') which can be challenging to translate directly into sign language due to the need to convey both concepts simultaneously.  Breaking it down into two simpler sentences makes it easier to sign each concept separately and more intuitively for the signer and interpreter.  This avoids the need for complex grammatical structures often difficult to visualize in sign language.",
+    "confidence": 9,
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "I love learning. I love new things.",
+    "sign_output": "M105x100S5669 M108x400S8939 M108x900S1216 M105x100S5669 M108x400S8939 M110x300S353 M116x700S838",
+    "assessment": {
+      "accuracy_score": 2,
+      "completeness_score": 2,
+      "appropriateness_score": 1,
+      "overall_score": 2,
+      "feedback": "The provided SignWriting is completely unintelligible without a key or a SignWriting lexicon.  SignWriting is a notation system, not a directly translatable code like numbers or letters.  It requires a specific chart or software to interpret the codes.  To assess accuracy, completeness, and appropriateness, a proper SignWriting transcription is needed (showing the actual handshapes, locations, and movements).  The numbers and letters shown don't correspond to any known standard SignWriting system. The response should consist of visual representation of signs, not numerical codes.  Furthermore, even if decodable,  a direct translation of  \"I love learning. I love new things.\" would likely use classifiers or other grammatical elements absent here.",
+      "strengths": "There are no identifiable strengths in the provided output. The format is completely unusable without a context-specific key. Even with such a key the codes' validity remains in question."
+    },
+    "gemini_used": true
+  },
+  "pipeline_success": true,
+  "gemini_calls": 2,
+  "demo_type": "simple_standalone"
+}

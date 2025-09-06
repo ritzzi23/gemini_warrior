@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-09-06T13:39:47.660753",
+  "input_text": "Hello, how are you today?",
+  "enhanced_text": "Hello. How are you?",
+  "signwriting_output": "M104x600S6414 M104x300S4398 M97x300S2224 M121x400S2131",
+  "enhancement_details": {
+    "original_text": "Hello, how are you today?",
+    "enhanced_text": "Hello. How are you?",
+    "reasoning": "The original greeting \"Hello, how are you today?\" contains two separate ideas: a greeting and an inquiry about well-being.  The addition of \"today\" is unnecessary for conveying the basic meaning in sign language, which often focuses on concise expression. Separating the greeting and the question into two distinct sentences improves clarity and allows for a more natural and less rushed signing experience.  This simplifies the sentence structure and breaks down the compound idea, leading to easier translation.",
+    "confidence": 10,
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "Hello. How are you?",
+    "sign_output": "M104x600S6414 M104x300S4398 M97x300S2224 M121x400S2131",
+    "assessment": {
+      "accuracy_score": 1,
+      "completeness_score": 1,
+      "appropriateness_score": 1,
+      "overall_score": 1,
+      "feedback": "The provided SignWriting output is completely unintelligible and unusable as a sign language translation.  SignWriting uses a system of notation to represent handshapes, movements, and locations in space.  While the strings 'M104x600S6414', etc., *might* represent some coded representation within a specific SignWriting system, it's not standard, recognizable, or interpretable without extensive, specific knowledge of that unmentioned system (if it even exists).  To be useful, a proper SignWriting representation would need to be visually represented or use a standardized system understood by SignWriting readers.  Moreover, a translation of \"Hello. How are you?\" would need to show multiple signs, not a series of apparently arbitrary alphanumeric strings.  To improve, use actual SignWriting notation that can be visually rendered, or consider using a different notation system that is widely accessible or provide a video/image of the signs.",
+      "strengths": "None. The provided output does not represent a valid or usable sign language translation."
+    },
+    "gemini_used": true
+  },
+  "pipeline_success": true,
+  "gemini_calls": 2,
+  "demo_type": "simple_standalone"
+}

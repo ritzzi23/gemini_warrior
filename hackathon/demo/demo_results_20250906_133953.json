@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-09-06T13:39:53.812686",
+  "input_text": "I love learning new things.",
+  "enhanced_text": "I love learning. I love new things.",
+  "signwriting_output": "M105x100S9728 M108x400S9724 M108x900S8004 M105x100S9728 M108x400S9724 M110x300S4983 M116x700S5893",
+  "enhancement_details": {
+    "original_text": "I love learning new things.",
+    "enhanced_text": "I love learning. I love new things.",
+    "reasoning": "The original sentence contains a compound idea ('learning new things') which can be confusing to translate into sign language.  Breaking it down into two simpler sentences, each expressing a single clear concept, makes the translation more straightforward and less ambiguous. Sign languages often favor shorter, simpler sentences than spoken languages.",
+    "confidence": 9,
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "I love learning. I love new things.",
+    "sign_output": "M105x100S9728 M108x400S9724 M108x900S8004 M105x100S9728 M108x400S9724 M110x300S4983 M116x700S5893",
+    "assessment": {
+      "accuracy_score": 2,
+      "completeness_score": 2,
+      "appropriateness_score": 1,
+      "overall_score": 1,
+      "feedback": "The provided SignWriting output is completely unusable.  SignWriting uses a system of glyphs representing handshapes, movements, and locations.  The string 'M105x100S9728 M108x400S9724 M108x900S8004 M105x100S9728 M108x400S9724 M110x300S4983 M116x700S5893' appears to be a numerical encoding, not actual SignWriting.  This encoding lacks any context or mapping to explain what each number represents, making it impossible to assess its accuracy or completeness. To be a useful translation, the output should be valid SignWriting notation that a trained reader could interpret.   To improve, the SignWriting would need to be transcribed into the actual glyphs representing the signs. Then, each sign needs to be checked for appropriate use in the context of the sentence.  It's likely that the numerical string is an internal representation of some software; this is not suitable for sign language transcription.",
+      "strengths": "There are no discernible strengths in the provided output. The lack of recognizable SignWriting notation prevents any assessment of its quality."
+    },
+    "gemini_used": true
+  },
+  "pipeline_success": true,
+  "gemini_calls": 2,
+  "demo_type": "simple_standalone"
+}

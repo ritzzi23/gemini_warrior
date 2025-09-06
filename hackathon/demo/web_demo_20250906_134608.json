@@ -1,0 +1,29 @@
+{
+  "original_text": "I want to eat fruits.",
+  "enhanced_text": "I want fruit.",
+  "signwriting_output": "M123x456S1f720 M119x400S4451 M102x500S3745",
+  "enhancement_details": {
+    "original_text": "I want to eat fruits.",
+    "enhanced_text": "I want fruit.",
+    "reasoning": "The original sentence, \"I want to eat fruits,\" contains a slightly complex verb phrase (\"want to eat\") and uses the plural \"fruits\" which might be harder to convey clearly in sign language depending on the context (e.g., specifying a type of fruit vs. fruit in general).  Simplifying to \"I want fruit\" removes the unnecessary verb and makes the sentence more concise and easier to sign.  The meaning remains the same if the signer intends to convey a desire for any kind of fruit.",
+    "confidence": 9,
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "I want fruit.",
+    "sign_output": "M123x456S1f720 M119x400S4451 M102x500S3745",
+    "assessment": {
+      "accuracy_score": 5,
+      "completeness_score": 5,
+      "appropriateness_score": 5,
+      "overall_score": 5,
+      "feedback": "Assessment failed",
+      "strengths": "Unable to assess"
+    },
+    "gemini_used": false,
+    "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-1.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 50\n}\n, links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, retry_delay {\n  seconds: 51\n}\n]"
+  },
+  "gemini_calls": 2,
+  "success": true,
+  "timestamp": "2025-09-06T13:46:08.375750"
+}

@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-09-06T13:33:34.138735",
+  "input_text": "Thank you for your help.",
+  "enhanced_text": "Thank you.  You helped me.",
+  "signwriting_output": "M116x500S9904 M121x400S7047 M121x300S6637 M104x600S4459 M109x300S357",
+  "enhancement_details": {
+    "original_text": "Thank you for your help.",
+    "enhanced_text": "Thank you.  You helped me.",
+    "reasoning": "The original sentence is grammatically correct but slightly complex for sign language translation.  Breaking it into two shorter, simpler sentences improves clarity.  \"Thank you\" translates easily in most sign languages.  Separating the expression of gratitude from the acknowledgment of help allows for more natural and expressive signing. Compound sentences can be difficult to translate fluently into sign because they may require holding multiple concepts simultaneously. This simplification reduces the cognitive load on the signer and receiver.",
+    "confidence": 9,
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "Thank you.  You helped me.",
+    "sign_output": "M116x500S9904 M121x400S7047 M121x300S6637 M104x600S4459 M109x300S357",
+    "assessment": {
+      "accuracy_score": 2,
+      "completeness_score": 2,
+      "appropriateness_score": 1,
+      "overall_score": 1,
+      "feedback": "The provided SignWriting output is completely unusable and does not represent a valid translation of the English sentence.  SignWriting uses a system of glyphs, not alphanumeric codes like 'M116x500S9904'.  These codes are meaningless without a corresponding SignWriting chart or font that maps them to specific signs.  Even if a chart existed, relying on numerical codes to communicate a signed expression is highly inappropriate and impractical.  To accurately assess the translation, the output must be provided as actual SignWriting glyphs, ideally rendered as an image.  A proper translation would need to show the signs for 'thank you', 'you', and 'help', incorporating appropriate grammatical aspects of the chosen sign language (e.g., subject-verb-object order, non-manual markers).",
+      "strengths": []
+    },
+    "gemini_used": true
+  },
+  "pipeline_success": true,
+  "gemini_calls": 2,
+  "demo_type": "simple_standalone"
+}

@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-09-06T13:44:47.072154",
+  "input_text": "Hello, how are you today?",
+  "enhanced_text": "Hello. How are you?",
+  "signwriting_output": "M123x456S1f720 M123x456S1f720 M123x456S1f720 M123x456S1f720",
+  "enhancement_details": {
+    "original_text": "Hello, how are you today?",
+    "enhanced_text": "Hello. How are you?",
+    "reasoning": "The original greeting, \"Hello, how are you today?\" is grammatically correct but contains unnecessary words for sign language translation.  'Today' is often implied in a greeting and adding it can make the sentence more complex to sign. Separating \"Hello\" and \"How are you?\" into two distinct parts simplifies the signing process, making it easier to understand and process visually. This improves clarity and reduces the cognitive load on the signer and the receiver.  Shorter sentences are generally preferred in sign language for better comprehension.",
+    "confidence": 10,
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "Hello. How are you?",
+    "sign_output": "M123x456S1f720 M123x456S1f720 M123x456S1f720 M123x456S1f720",
+    "assessment": {
+      "accuracy_score": 0,
+      "completeness_score": 0,
+      "appropriateness_score": 0,
+      "overall_score": 0,
+      "feedback": "The provided SignWriting output 'M123x456S1f720 M123x456S1f720 M123x456S1f720 M123x456S1f720' is completely nonsensical and bears no resemblance to a valid sign language representation of \"Hello. How are you?\".  SignWriting uses a system of symbols to represent handshapes, locations, and movements.  The string provided is just an arbitrary sequence of characters.  To improve, a proper understanding of SignWriting notation is required, followed by the accurate transcription of the signs for \"Hello\" and \"How are you?\" in a specific sign language (e.g., American Sign Language (ASL)).  Each sign would have a unique and meaningful representation in SignWriting, not a repeated nonsensical string.",
+      "strengths": []
+    },
+    "gemini_used": true
+  },
+  "pipeline_success": true,
+  "gemini_calls": 2,
+  "demo_type": "simple_standalone"
+}

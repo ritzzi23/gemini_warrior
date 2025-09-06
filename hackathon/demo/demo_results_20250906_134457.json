@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-09-06T13:44:57.235937",
+  "input_text": "Can you please repeat that?",
+  "enhanced_text": "Repeat, please.",
+  "signwriting_output": "M123x456S1f720 M123x456S1f720",
+  "enhancement_details": {
+    "original_text": "Can you please repeat that?",
+    "enhanced_text": "Repeat, please.",
+    "reasoning": "The original phrase uses a complex sentence structure ('Can you please repeat that?') which can be difficult to convey concisely and naturally in sign language.  Breaking it down into two simple requests ('Repeat.' and 'Please.') allows for clearer and more direct signing. The implied subject ('you') is often unnecessary in sign language,  and 'that' can be easily implied through context or pointing. Using shorter, more straightforward phrasing avoids unnecessary movements and enhances clarity.",
+    "confidence": 10,
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "Repeat, please.",
+    "sign_output": "M123x456S1f720 M123x456S1f720",
+    "assessment": {
+      "accuracy_score": 1,
+      "completeness_score": 1,
+      "appropriateness_score": 1,
+      "overall_score": 1,
+      "feedback": "The provided SignWriting output \"M123x456S1f720 M123x456S1f720\" is not valid SignWriting.  SignWriting uses a system of glyphs representing handshapes, locations, and movements, not arbitrary alphanumeric strings.  To translate \"Repeat, please,\" a proper SignWriting transcription would require specific glyphs representing the signs for \"REPEAT\" and \"PLEASE\" in a chosen sign language (e.g., American Sign Language).  The string provided bears no resemblance to actual SignWriting notation.  To get a proper evaluation, a valid SignWriting transcription is needed, including specifying which sign language is being used.  Even then, a score would depend on the accuracy of the signs and their grammatical correctness in the target sign language.",
+      "strengths": []
+    },
+    "gemini_used": true
+  },
+  "pipeline_success": true,
+  "gemini_calls": 2,
+  "demo_type": "simple_standalone"
+}

@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-09-06T13:39:56.726020",
+  "input_text": "Can you please repeat that?",
+  "enhanced_text": "Repeat, please?",
+  "signwriting_output": "M114x700S9806 M112x700S9299",
+  "enhancement_details": {
+    "original_text": "Can you please repeat that?",
+    "enhanced_text": "Repeat, please?",
+    "reasoning": "The original sentence, while polite, contains several elements that can be challenging to translate directly into sign language.  'Can you' requires expressing ability and politeness, which can be conveyed through facial expressions and body language rather than explicitly signing all words. 'Please' is easily conveyed through signs or facial expressions. 'Repeat that' is more straightforward and avoids the complexity of the relative clause structure.  Shortening the sentence to 'Repeat, please?' maintains politeness and clarity while making it much simpler to sign.",
+    "confidence": 10,
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "Repeat, please?",
+    "sign_output": "M114x700S9806 M112x700S9299",
+    "assessment": {
+      "accuracy_score": 2,
+      "completeness_score": 0,
+      "appropriateness_score": 0,
+      "overall_score": 1,
+      "feedback": "The provided SignWriting output \"M114x700S9806 M112x700S9299\" is completely uninterpretable without a SignWriting lexicon.  SignWriting uses a system of glyphs representing handshapes, movements, and locations, not alphanumeric codes.  To be a valid translation, it would need to be actual SignWriting glyphs, visually representing the signs for \"repeat\" and \"please\" in a specific sign language (like ASL, BSL, etc.).  The current output appears to be random alphanumeric strings.  You must provide the actual visual representation of the signs in SignWriting to receive a meaningful assessment.",
+      "strengths": []
+    },
+    "gemini_used": true
+  },
+  "pipeline_success": true,
+  "gemini_calls": 2,
+  "demo_type": "simple_standalone"
+}

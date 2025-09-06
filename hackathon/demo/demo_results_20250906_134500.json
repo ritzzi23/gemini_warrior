@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-09-06T13:45:00.351826",
+  "input_text": "Have a great day!",
+  "enhanced_text": "Good day!",
+  "signwriting_output": "M123x456S1f720 M123x456S1f720",
+  "enhancement_details": {
+    "original_text": "Have a great day!",
+    "enhanced_text": "Good day!",
+    "reasoning": "The original phrase \"Have a great day!\" is a bit lengthy and less direct for sign language translation.  \"Good day!\" is shorter, simpler, and conveys the same positive sentiment with fewer signs and less complex sentence structure.  Breaking it down further would lose the conciseness and impact of the greeting.",
+    "confidence": 9,
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "Good day!",
+    "sign_output": "M123x456S1f720 M123x456S1f720",
+    "assessment": {
+      "accuracy_score": 1,
+      "completeness_score": 1,
+      "appropriateness_score": 1,
+      "overall_score": 1,
+      "feedback": "The provided SignWriting output \"M123x456S1f720 M123x456S1f720\" is completely nonsensical and does not represent a valid sign language translation of \"Good day!\"  SignWriting uses a system of glyphs to represent handshapes, movements, and locations, and this string of alphanumeric characters bears no resemblance to that system.  To improve, a proper SignWriting transcription needs to be created, utilizing the correct glyphs to represent the handshape, orientation, movement, and location of the signs used to convey \"Good day!\" in a specific sign language (e.g., American Sign Language, British Sign Language).  The specific signs used would also depend on the context and the desired level of formality.",
+      "strengths": "There are no strengths in this translation.  The output is entirely incorrect and fails to represent any form of sign language."
+    },
+    "gemini_used": true
+  },
+  "pipeline_success": true,
+  "gemini_calls": 2,
+  "demo_type": "simple_standalone"
+}

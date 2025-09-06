@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-09-06T13:32:54.642404",
+  "input_text": "I love learning new things.",
+  "enhanced_text": "I love learning. I love new things.",
+  "signwriting_output": "M105x100S2507 M108x400S5422 M108x900S7211 M105x100S2507 M108x400S5422 M110x300S8760 M116x700S3842",
+  "enhancement_details": {
+    "original_text": "I love learning new things.",
+    "enhanced_text": "I love learning. I love new things.",
+    "reasoning": "The original sentence, while grammatically correct, contains a compound idea ('learning new things') that might be challenging to convey directly in sign language.  Breaking it into two simpler sentences ('I love learning' and 'I love new things') allows for clearer and more natural signing. Each sentence focuses on a single, easily understandable concept, making the translation process smoother and less prone to misinterpretation.  Sign languages often favor shorter, more direct phrasing than spoken languages.",
+    "confidence": 9,
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "I love learning. I love new things.",
+    "sign_output": "M105x100S2507 M108x400S5422 M108x900S7211 M105x100S2507 M108x400S5422 M110x300S8760 M116x700S3842",
+    "assessment": {
+      "accuracy_score": 2,
+      "completeness_score": 2,
+      "appropriateness_score": 1,
+      "overall_score": 2,
+      "feedback": "The provided SignWriting output is completely unintelligible without a key or reference to the specific SignWriting system used.  SignWriting is a complex system that requires a detailed notation system.  Simply providing a sequence of numbers and letters doesn't translate into meaningful signs.  To assess accuracy, completeness, and appropriateness, a valid SignWriting transcription with a clear key needs to be provided.  Furthermore,  the numerical codes seem arbitrary and don't correspond to any known SignWriting conventions.  A proper translation would require specifying the chosen sign language (e.g., American Sign Language (ASL), British Sign Language (BSL), etc.) and then using the correct notation from a standardized SignWriting system.  Each sign needs to be individually and accurately represented. A good translation wouldn't use a coded system like the one provided.  It should represent the handshapes, location, and movements of the signs, usually as a notated graphical representation.",
+      "strengths": "None.  The current output is uninterpretable as a sign language translation.  There's no aspect that could be considered a strength in terms of sign language translation."
+    },
+    "gemini_used": true
+  },
+  "pipeline_success": true,
+  "gemini_calls": 2,
+  "demo_type": "simple_standalone"
+}

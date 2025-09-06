@@ -1,0 +1,154 @@
+{
+  "input_file": "ritesh_input.txt",
+  "original_text": "I am feeling hungry today.",
+  "enhanced_text": "I am hungry.",
+  "sign_sequence": [
+    {
+      "word": "I",
+      "description": "Point to oneself with index finger.",
+      "hand_shape": "Index finger",
+      "palm_orientation": "Forward",
+      "location": "Chest",
+      "movement": "Tap",
+      "duration": 0.5,
+      "cultural_notes": "This is a very common and straightforward sign.  Variations in speed and emphasis can change the meaning slightly in context, like adding emphasis to show personal feeling.",
+      "hand_positions": [
+        {
+          "hand_shape": "Index finger",
+          "palm_orientation": "Forward",
+          "location": "Chest",
+          "movement": "Tap"
+        }
+      ]
+    },
+    {
+      "word": "am",
+      "description": "This is usually incorporated into the verb and is not a separate sign in this context.",
+      "hand_shape": "N/A",
+      "palm_orientation": "N/A",
+      "location": "N/A",
+      "movement": "N/A",
+      "duration": 0,
+      "cultural_notes": "In ASL, verbs are often modified to show the subject (I am) and object (Hungry). The combination of the subject and verb are often incorporated into one sign instead of being signed separately.",
+      "hand_positions": [
+        {
+          "hand_shape": "N/A",
+          "palm_orientation": "N/A",
+          "location": "N/A",
+          "movement": "N/A"
+        }
+      ]
+    },
+    {
+      "word": "hungry",
+      "description": "Bring a slightly cupped hand to the mouth, as if mimicking eating.",
+      "hand_shape": "Open hand, slightly cupped",
+      "palm_orientation": "Up",
+      "location": "Mouth",
+      "movement": "Bring hand to mouth and make a slight 'eating' motion",
+      "duration": 1,
+      "cultural_notes": "This is the standard sign for hungry. Mimicking the action of eating helps convey the meaning visually. Some people might add a slight lip-smacking sound to enhance the meaning but the sound is not crucial to the sign's understanding.",
+      "hand_positions": [
+        {
+          "hand_shape": "Open hand, slightly cupped",
+          "palm_orientation": "Up",
+          "location": "Mouth",
+          "movement": "Bring hand to mouth and make a slight 'eating' motion"
+        }
+      ]
+    }
+  ],
+  "enhancement_details": {
+    "original_text": "I am feeling hungry today.",
+    "enhanced_text": "I am hungry.",
+    "reasoning": "The original sentence, \"I am feeling hungry today,\" contains unnecessary words for sign language translation.  \"Feeling\" is implied in the sign for hungry, and \"today\" is often contextually understood and doesn't need explicit signing unless specifying a contrast with another time.  Simplifying to \"I am hungry\" makes the translation clearer and more concise, which is crucial for effective sign language communication.",
+    "confidence": 10,
+    "gemini_used": true
+  },
+  "gemini_signs_details": {
+    "signs": [
+      {
+        "word": "I",
+        "description": "Point to oneself with index finger.",
+        "hand_shape": "Index finger",
+        "palm_orientation": "Forward",
+        "location": "Chest",
+        "movement": "Tap",
+        "duration": 0.5,
+        "cultural_notes": "This is a very common and straightforward sign.  Variations in speed and emphasis can change the meaning slightly in context, like adding emphasis to show personal feeling.",
+        "hand_positions": [
+          {
+            "hand_shape": "Index finger",
+            "palm_orientation": "Forward",
+            "location": "Chest",
+            "movement": "Tap"
+          }
+        ]
+      },
+      {
+        "word": "am",
+        "description": "This is usually incorporated into the verb and is not a separate sign in this context.",
+        "hand_shape": "N/A",
+        "palm_orientation": "N/A",
+        "location": "N/A",
+        "movement": "N/A",
+        "duration": 0,
+        "cultural_notes": "In ASL, verbs are often modified to show the subject (I am) and object (Hungry). The combination of the subject and verb are often incorporated into one sign instead of being signed separately.",
+        "hand_positions": [
+          {
+            "hand_shape": "N/A",
+            "palm_orientation": "N/A",
+            "location": "N/A",
+            "movement": "N/A"
+          }
+        ]
+      },
+      {
+        "word": "hungry",
+        "description": "Bring a slightly cupped hand to the mouth, as if mimicking eating.",
+        "hand_shape": "Open hand, slightly cupped",
+        "palm_orientation": "Up",
+        "location": "Mouth",
+        "movement": "Bring hand to mouth and make a slight 'eating' motion",
+        "duration": 1,
+        "cultural_notes": "This is the standard sign for hungry. Mimicking the action of eating helps convey the meaning visually. Some people might add a slight lip-smacking sound to enhance the meaning but the sound is not crucial to the sign's understanding.",
+        "hand_positions": [
+          {
+            "hand_shape": "Open hand, slightly cupped",
+            "palm_orientation": "Up",
+            "location": "Mouth",
+            "movement": "Bring hand to mouth and make a slight 'eating' motion"
+          }
+        ]
+      }
+    ],
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "I am hungry.",
+    "sign_output": "[{'word': 'I', 'description': 'Point to oneself with index finger.', 'hand_shape': 'Index finger', 'palm_orientation': 'Forward', 'location': 'Chest', 'movement': 'Tap', 'duration': 0.5, 'cultural_notes': 'This is a very common and straightforward sign.  Variations in speed and emphasis can change the meaning slightly in context, like adding emphasis to show personal feeling.', 'hand_positions': [{'hand_shape': 'Index finger', 'palm_orientation': 'Forward', 'location': 'Chest', 'movement': 'Tap'}]}, {'word': 'am', 'description': 'This is usually incorporated into the verb and is not a separate sign in this context.', 'hand_shape': 'N/A', 'palm_orientation': 'N/A', 'location': 'N/A', 'movement': 'N/A', 'duration': 0, 'cultural_notes': 'In ASL, verbs are often modified to show the subject (I am) and object (Hungry). The combination of the subject and verb are often incorporated into one sign instead of being signed separately.', 'hand_positions': [{'hand_shape': 'N/A', 'palm_orientation': 'N/A', 'location': 'N/A', 'movement': 'N/A'}]}, {'word': 'hungry', 'description': 'Bring a slightly cupped hand to the mouth, as if mimicking eating.', 'hand_shape': 'Open hand, slightly cupped', 'palm_orientation': 'Up', 'location': 'Mouth', 'movement': \"Bring hand to mouth and make a slight 'eating' motion\", 'duration': 1, 'cultural_notes': \"This is the standard sign for hungry. Mimicking the action of eating helps convey the meaning visually. Some people might add a slight lip-smacking sound to enhance the meaning but the sound is not crucial to the sign's understanding.\", 'hand_positions': [{'hand_shape': 'Open hand, slightly cupped', 'palm_orientation': 'Up', 'location': 'Mouth', 'movement': \"Bring hand to mouth and make a slight 'eating' motion\"}]}]",
+    "assessment": {
+      "accuracy_score": 9,
+      "completeness_score": 8,
+      "appropriateness_score": 9,
+      "overall_score": 9,
+      "feedback": [
+        "The treatment of the 'am' verb is accurate in its description, explaining the incorporation into the main verb. However, for completeness in instruction, it could explicitly state the combined sign instead of just saying it's incorporated.  For example, it could describe the sign for \"I am hungry\" as a single unit, showing how the index finger pointing to the chest is combined with the hungry sign. This would be more useful for someone learning to sign.",
+        "While the cultural notes are helpful, consider adding a visual aid such as a short video or series of images demonstrating the signs. This would drastically improve understanding.  The written descriptions, while detailed, can be difficult to visualize without prior experience in sign language.",
+        "The description of the 'hungry' sign is excellent.  Mentioning the optional lip smacking sound is a nice touch, correctly labeling it as non-crucial.",
+        "Consider adding information about variations of the 'hungry' sign –  are there regional or dialectical differences? This would further enhance the completeness of the instruction."
+      ],
+      "strengths": [
+        "The description of the individual components of the signs (handshape, orientation, location, movement) is thorough and well-structured.",
+        "The cultural notes are informative and accurate regarding the incorporation of the subject pronoun into the verb in ASL.  The explanation about the optional lip-smacking sound is a helpful example of contextual nuance.",
+        "The 'I' sign description is clear and simple.  The description of the hungry sign is very good, accurate, and descriptive.",
+        "The use of JSON structure is well-suited for storing this type of sign language data."
+      ]
+    },
+    "gemini_used": true
+  },
+  "gemini_calls": 3,
+  "success": true,
+  "timestamp": "2025-09-06T14:33:44.694009",
+  "processing_method": "file_based_gemini_cli"
+}

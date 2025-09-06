@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-09-06T13:39:50.335682",
+  "input_text": "Thank you for your help.",
+  "enhanced_text": "Thank you.  You helped.",
+  "signwriting_output": "M116x500S7342 M121x400S2457 M121x300S3130 M104x700S9781",
+  "enhancement_details": {
+    "original_text": "Thank you for your help.",
+    "enhanced_text": "Thank you.  You helped.",
+    "reasoning": "The original sentence, while grammatically correct, contains a compound idea ('thank you' and 'for your help').  Breaking it into two simpler sentences improves clarity for sign language translation.  Sign languages often favor shorter, more direct phrases, and this change facilitates easier translation by removing the need to convey a complex grammatical structure.",
+    "confidence": 10,
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "Thank you.  You helped.",
+    "sign_output": "M116x500S7342 M121x400S2457 M121x300S3130 M104x700S9781",
+    "assessment": {
+      "accuracy_score": 2,
+      "completeness_score": 2,
+      "appropriateness_score": 1,
+      "overall_score": 1,
+      "feedback": "The provided SignWriting output is completely unintelligible and unusable.  It consists of numerical codes that don't correspond to any known SignWriting system or lexicon.  To improve, a proper SignWriting transcription needs to be used, one that maps directly to the visual and spatial aspects of the signs.  This requires knowledge of a particular sign language (e.g., American Sign Language (ASL), British Sign Language (BSL), etc.).  Each sign ('Thank you' and 'You helped') needs a visual representation which captures handshape, location, movement, etc.,  not a numerical code.  Without this visual representation, accurate assessment is impossible.",
+      "strengths": "None.  The provided output offers no strength as a sign language translation."
+    },
+    "gemini_used": true
+  },
+  "pipeline_success": true,
+  "gemini_calls": 2,
+  "demo_type": "simple_standalone"
+}

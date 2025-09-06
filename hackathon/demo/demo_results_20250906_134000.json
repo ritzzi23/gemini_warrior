@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-09-06T13:40:00.583610",
+  "input_text": "Have a great day!",
+  "enhanced_text": "Great day!",
+  "signwriting_output": "M103x500S5066 M100x400S4715",
+  "enhancement_details": {
+    "original_text": "Have a great day!",
+    "enhanced_text": "Great day!",
+    "reasoning": "The original phrase \"Have a great day!\" is a common idiom. While easily understood in spoken English, the concept of \"having\" a day might be less directly translatable into sign language, which tends to favor more concrete imagery.  Shortening it to \"Great day!\" removes the unnecessary verb and focuses on the core message of wishing someone well for the day. This simpler phrase is more easily conceptualized and signed, potentially avoiding ambiguity or needing multiple signs to convey the same idea.",
+    "confidence": 9,
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "Great day!",
+    "sign_output": "M103x500S5066 M100x400S4715",
+    "assessment": {
+      "accuracy_score": 1,
+      "completeness_score": 1,
+      "appropriateness_score": 1,
+      "overall_score": 1,
+      "feedback": "The provided SignWriting output \"M103x500S5066 M100x400S4715\" is not a valid or recognizable representation of sign language. SignWriting uses a system of notation to represent handshapes, movements, and locations of signs.  The given string appears to be arbitrary codes and doesn't correspond to any known sign language lexicon or notation. To translate \"Great day!\" accurately, one would need to specify the target sign language (e.g., American Sign Language, British Sign Language) and provide a representation using a recognized system like SignWriting (with actual SignWriting glyphs, not arbitrary codes) or a gloss (e.g.,  `GOOD DAY!`).  The translation requires proper depiction of the handshapes, movements, and facial expressions associated with expressing a positive sentiment and the concept of 'day' in the chosen sign language.",
+      "strengths": "None. The provided SignWriting output is entirely nonsensical within the context of sign language representation."
+    },
+    "gemini_used": true
+  },
+  "pipeline_success": true,
+  "gemini_calls": 2,
+  "demo_type": "simple_standalone"
+}

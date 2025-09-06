@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-09-06T13:32:48.189793",
+  "input_text": "Hello, how are you today?",
+  "enhanced_text": "Hello. How are you?",
+  "signwriting_output": "M104x600S6197 M104x300S884 M97x300S1570 M121x400S3171",
+  "enhancement_details": {
+    "original_text": "Hello, how are you today?",
+    "enhanced_text": "Hello. How are you?",
+    "reasoning": "The original greeting uses a compound sentence.  Splitting it into two simpler sentences ('Hello.' and 'How are you?') improves clarity for sign language interpretation.  The phrase 'today' is implied contextually in the question 'How are you?' and its omission does not affect meaning, while it reduces complexity. Simpler sentences reduce the cognitive load for both the signer and the interpreter, facilitating easier and more accurate translation.",
+    "confidence": 10,
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "Hello. How are you?",
+    "sign_output": "M104x600S6197 M104x300S884 M97x300S1570 M121x400S3171",
+    "assessment": {
+      "accuracy_score": 0,
+      "completeness_score": 0,
+      "appropriateness_score": 0,
+      "overall_score": 0,
+      "feedback": "The provided SignWriting output is meaningless.  SignWriting uses a system of notation to represent handshapes, locations, and movements, not alphanumeric codes.  'M104x600S6197' etc., are not valid SignWriting symbols.  To accurately assess a translation,  the output needs to be in proper SignWriting notation or a detailed description of the signs used, including handshapes, locations, and movements for each sign.  Without proper representation of the signs, it's impossible to evaluate accuracy, completeness, or appropriateness.",
+      "strengths": []
+    },
+    "gemini_used": true
+  },
+  "pipeline_success": true,
+  "gemini_calls": 2,
+  "demo_type": "simple_standalone"
+}

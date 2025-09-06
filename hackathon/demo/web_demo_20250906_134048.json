@@ -1,0 +1,28 @@
+{
+  "original_text": "Hello, how are you today?",
+  "enhanced_text": "Hello. How are you?",
+  "signwriting_output": "M104x600S7780 M104x300S4766 M97x300S4227 M121x400S2752",
+  "enhancement_details": {
+    "original_text": "Hello, how are you today?",
+    "enhanced_text": "Hello. How are you?",
+    "reasoning": "The original greeting contains a compound sentence and unnecessary words.  'Today' is implied and can be omitted for ease of translation in sign language.  Breaking it into two simple sentences improves clarity and allows each concept ('hello' and 'how are you') to be signed individually, making it easier for a deaf or hard-of-hearing person to understand and for a signer to express.",
+    "confidence": 10,
+    "gemini_used": true
+  },
+  "quality_assessment": {
+    "original_text": "Hello. How are you?",
+    "sign_output": "M104x600S7780 M104x300S4766 M97x300S4227 M121x400S2752",
+    "assessment": {
+      "accuracy_score": 1,
+      "completeness_score": 1,
+      "appropriateness_score": 1,
+      "overall_score": 1,
+      "feedback": "The provided SignWriting output is not recognizable as a valid representation of a sign language translation of \"Hello. How are you?\".  SignWriting uses a system of notation to represent handshapes, movements, and locations of signs.  The given strings of 'M104x600S7780', etc.,  don't correspond to any known SignWriting conventions or established sign language lexicon.  To improve, a proper SignWriting transcription or, even better, a video showing the signs in a specific sign language (e.g., American Sign Language - ASL) is needed.  The system must use correct SignWriting notation or an equivalent standardized system if a different method of notation is used.",
+      "strengths": "None. The provided output is nonsensical within the context of SignWriting or any known sign language notation system."
+    },
+    "gemini_used": true
+  },
+  "gemini_calls": 2,
+  "success": true,
+  "timestamp": "2025-09-06T13:40:48.412981"
+}
